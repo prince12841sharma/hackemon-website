@@ -1,0 +1,69 @@
+#about{
+    width: full;
+}
+
+/* Add these animations to your about.css file */
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  .bounce-animation {
+    animation: bounce 2s ease-in-out infinite;
+  }
+  
+  /* Optional floating animation for Ash */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-10px) rotate(2deg);
+    }
+  }
+  
+  /* You can add this class to Ash's image if you want him to float as well */
+  .float-animation {
+    animation: float 6s ease-in-out infinite;
+  }
+
+
+
+  /* phone view */
+
+  /* Media queries for better text stroke on mobile */
+@media (max-width: 768px) {
+    #herosection h1 {
+      -webkit-text-stroke: 3px #0A3B89 !important;
+    }
+  }
+  
+  /* Ensure proper positioning on smaller screens */
+  @media (max-width: 640px) {
+    #herosection .absolute {
+      position: relative;
+      padding-top: 120px; /* Give space for the navbar */
+    }
+    
+    #herosection h1 {
+      text-align: center;
+      -webkit-text-stroke: 2px #0A3B89 !important;
+    }
+  }
+  
+  /* Prevent overflow issues on very small screens */
+  @media (max-width: 380px) {
+    #herosection h1 {
+      font-size: 2.5rem;
+      -webkit-text-stroke: 2px #0A3B89 !important;
+    }
+    
+    #herosection button {
+      transform: scale(0.8);
+    }
+  }
