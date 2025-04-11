@@ -146,11 +146,11 @@ const Prizes = () => {
   const awardSectionStyle = {
     borderRadius: "25px",
     border: "2px solid rgb(133, 179, 252)",
-        boxShadow: "0px 10px 20px rgba(255, 255, 255, 0.03)",
-    transition: "background 0.5s ease-in-out",
-    
-    maxWidth: "calc(100% - 2rem)" // Consistent max width with margins
+    boxShadow: "0px 0px 10px 10px rgba(0, 238, 255, 0.09)",
+    transition: "background 0.5s ease-in-out, box-shadow 0.3s ease-in-out",
+    maxWidth: "calc(100% - 2rem)"
   };
+  
 
   const headingStyle = {
     background: "linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7))",
@@ -172,7 +172,7 @@ const Prizes = () => {
         <div className='flex flex-col items-center justify-center'>
           <div 
             ref={championshipRef} 
-            className='mx-4 text-center  max-w-6xl' 
+            className='mx-4 text-center max-w-6xl' 
             style={awardSectionStyle}
           >
             <h1 className="z-20  my-8 text-center text-4xl font-bold text-white" style={headingStyle}>

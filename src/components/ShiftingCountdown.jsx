@@ -11,13 +11,15 @@ const DAY = HOUR * 24;
 
 const ShiftingCountdown = () => {
   return (
-    <div className="w-[12rem] md:w-[22rem] flex justify-center itmes-center p-2">
-      <div className="mx-auto flex w-[11rem] md:w-[20rem] max-w-md items-center bg-white h-full p-2 rounded-md">
+    <div className="w-[12rem] md:w-[22rem] flex flex-col text-center justify-center itmes-center pb-2">
+      <p className="text-lg font-bold text-leading tracking-wide">Hack Start</p>
+      <div className="mx-auto flex flex w-[11rem] md:w-[20rem] max-w-md items-center bg-white h-full p-2 rounded-md">
         <CountdownItem unit="Day" text="D" isLast={false} />
         <CountdownItem unit="Hour" text="H" isLast={false} />
         <CountdownItem unit="Minute" text="M" isLast={false} />
         <CountdownItem unit="Second" text="S" isLast={true} />
       </div>
+      
     </div>
   );
 };

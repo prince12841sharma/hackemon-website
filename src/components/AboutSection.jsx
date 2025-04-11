@@ -74,8 +74,8 @@ const AboutSection = () => {
                 style={{
                   borderRadius: "25px",
                   border: "2px solid #2275FA",
-                  // background: "radial-gradient(circle, rgba(233, 242, 255, 0.1) 0%, rgba(233, 242, 255, 0.2) 50%, rgba(233, 242, 255, 0.2) 100%)",
-                  boxShadow: "0px 10px 20px rgba(255,255,255,0.1)",
+                  // background: "radial-gradient(circle, rgba(1, 183, 255, 0.17) 0%, rgba(233, 242, 255, 0.2) 50%, rgba(233, 242, 255, 0.2) 100%)",
+                  boxShadow: "0px 00px 10px 10px rgba(255,255,255,0.1)",
                   transition: "background 0.5s ease-in-out, opacity 1s ease-in-out, transform 1s ease-in-out",
                 }}
               >

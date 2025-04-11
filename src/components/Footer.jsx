@@ -10,6 +10,7 @@ import { useNavigate } from "react-router-dom";
 import shebuild from "../assets/logo.png";
 import {Link} from "react-router-dom";
 
+
 const Footer = () => {
   const navigate = useNavigate();
 
@@ -20,7 +21,7 @@ const Footer = () => {
 
   return (
     <div
-      className="w-full mt-0 bg-cover bg-center relative px-4 sm:px-8 text-white flex flex-col items-center bg-slate-950"
+      className=" w-full mt-0 bg-cover bg-center relative px-4 sm:px-8 text-white flex flex-col items-center bg-slate-950"
     >
       {/* Header Section styled as Pokémon League announcement */}
       <div className="relative flex flex-col w-full max-w-[1200px] mx-auto mb-8 mt-4 border-b-2 border-neutral-400 pb-4">
