@@ -32,7 +32,7 @@ const Navbar = () => {
     <div className="w-full flex text-white items-center px-2 md:px-6 py-0 absolute z-[10]" 
       style={{ background: "rgba(0, 0, 0, 0.3)" }}
     >
-      <div className="flex justify-between  items-center w-full">
+      <div className="flex justify-between items-center w-full">
       <div className='flex'>
       <div>
         <a href="https://www.shebuilds.tech/">
@@ -48,7 +48,7 @@ const Navbar = () => {
     to="/"
   >
     About
-    <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+    <span className="absolute -bottom-2 left-1/2 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
   </Link>
   <Link 
     to="/team"
@@ -56,7 +56,7 @@ const Navbar = () => {
     href="#team"
   >
     Team
-    <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+    <span className="absolute -bottom-2 left-1/2 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
   </Link>
   <Link 
     to="/events"
@@ -64,7 +64,7 @@ const Navbar = () => {
     href="#events"
   >
     Events
-    <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+    <span className="absolute -bottom-2 left-1/2 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
   </Link>
   <Link 
     to="/contact"
@@ -72,7 +72,7 @@ const Navbar = () => {
     href="#contactus"
   >
     Contact Us
-    <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+    <span className="absolute -bottom-2 left-1/2 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
   </Link>
   <Link 
     to="/joinus"
@@ -80,7 +80,7 @@ const Navbar = () => {
     href="#joinus"
   >
     Join Us
-    <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+    <span className="absolute -bottom-2 left-1/2 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
   </Link>
 </div>
       </div>
@@ -119,7 +119,7 @@ const Navbar = () => {
             onClick={() => setMenuOpen(false)}
           >
             About
-            <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute -bottom-2 left-1/2 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </Link>
           <Link 
             to="team"
@@ -128,7 +128,7 @@ const Navbar = () => {
             onClick={() => setMenuOpen(false)}
           >
             Team
-            <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute -bottom-2 left-1/2 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </Link>
           <Link 
             to="events"
@@ -137,7 +137,7 @@ const Navbar = () => {
             onClick={() => setMenuOpen(false)}
           >
             Events
-            <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute -bottom-2 left-1/2 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </Link>
           <Link 
             to="contact"
@@ -146,7 +146,7 @@ const Navbar = () => {
             onClick={() => setMenuOpen(false)}
           >
             Contact Us
-            <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute -bottom-2 left-1/2 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </Link>
           <Link 
             to="joinus"
@@ -155,7 +155,7 @@ const Navbar = () => {
             onClick={() => setMenuOpen(false)}
           >
             Join Us
-            <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute -bottom-2 left-1/2 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </Link>
 
           {/* <Link 
