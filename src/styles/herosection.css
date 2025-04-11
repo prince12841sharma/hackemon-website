@@ -1,14 +1,12 @@
 #herosection {
     position: relative;
-    background: url("../assets/herobg.jpg");
+    background: url("../assets/animatedbg2.gif");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     z-index: 1;
     overflow: hidden;
-
 }
-
 
 #herosection::after {
     content: "";
@@ -19,6 +17,33 @@
     height: 100px; /* adjust height as needed */
     background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent);
     z-index: 2;
+}
+
+/* Dark overlay */
+#herosection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.308); /* Adjust the 0.6 for more/less darkness */
+    z-index: 2;
+}
+
+/* Put your content above the overlay */
+#herosection > * {
+  
+    z-index: 3;
+}
+
+
+@media (max-width: 768px) {
+    #herosection {
+        background: url("../assets/animatedbg2.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 
