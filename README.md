@@ -28,7 +28,7 @@ This website serves as the **ultimate Pokédex** for event details, trainer regi
 - **Frontend:** React.js ⚛️ + Vite 🚀 + Tailwind CSS 🎨  
 - **UI Animations:** Magic UI 🪄 + Framer Motion 🎬  
 - **Icons:** React Icons 🎭  
-- **Hosting:** GitHub Pages / Vercel / Netlify 🌐  
+- **Hosting:** Vercel 🌐  
 
 ---
 
@@ -51,7 +51,7 @@ npm run dev
 ```
 
 ### 🌐 Live Website  
-[https://hackemon-main-website.vercel.app/](https://hackemon-main-website.vercel.app/)  
+[website](https://www.hackemon.dev/)  
 
 ---
 
