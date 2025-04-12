@@ -79,7 +79,7 @@ const Faq = () => {
   return (
     <div id='faq' className="min-h-[50rem] w-full rounded-md bg-gradient-to-b  from-[#010012] to-[#05042c] relative flex flex-col items-center justify-center antialiased">
       <div className="max-w-3xl mx-auto p-4 z-10 w-full">
-        <h1 className="text-lg md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-amber-400 to-amber-600 text-center font-sans font-bold mb-8">
+        <h1 className="text-5xl md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-amber-400 to-amber-600 text-center font-sans font-bold mb-8">
           FAQ
         </h1>
         
