@@ -3,7 +3,7 @@
 
 # 🎮 Hackémon - Official Website ⚡  
 📍 **Organized by SheBuilds
-🖥️ **GitHub Repository for Hackémon Website**  
+🖥️ **GitHub Repository for Hackémon Website**   
 
 ---
 
