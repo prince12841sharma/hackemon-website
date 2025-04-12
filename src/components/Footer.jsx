@@ -10,6 +10,8 @@ import { useNavigate } from "react-router-dom";
 import shebuild from "../assets/logo.png";
 import {Link} from "react-router-dom";
 
+import "../styles/footer.css"
+
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -20,7 +22,8 @@ const Footer = () => {
   };
 
   return (
-    <div
+    <div 
+      id="footer"
       className=" w-full mt-0 bg-cover bg-center relative px-4 sm:px-8 text-white flex flex-col items-center bg-slate-950"
     >
       {/* Header Section styled as Pokémon League announcement */}

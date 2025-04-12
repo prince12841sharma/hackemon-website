@@ -2,9 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { BackgroundBeams } from '../components/ui/background-beams';
 import { motion, AnimatePresence } from 'framer-motion';
 
+import "../styles/faq.css"
+
 const FaqItem = ({ question, answer, isOpen, onClick }) => {
   return (
-    <div className="border-b border-blue-800/30">
+    <div  className="border-b border-blue-800/30">
       <button
         className="flex w-full justify-between items-center py-4 px-2 text-left font-medium text-blue-100 hover:text-blue-50 transition-colors"
         onClick={onClick}
@@ -31,7 +33,7 @@ const FaqItem = ({ question, answer, isOpen, onClick }) => {
             transition={{ duration: 0.3 }}
             className="overflow-hidden"
           >
-            <div className="py-3 px-2 text-blue-200/80 text-sm">
+            <div className="py-3 px-2 text-blue-100/100 text-sm">
               {answer}
             </div>
           </motion.div>
@@ -75,13 +77,22 @@ const Faq = () => {
   };
 
   return (
-    <div className="min-h-[50rem] w-full rounded-md bg-gradient-to-b  from-[#010012] to-[#05042c] relative flex flex-col items-center justify-center antialiased">
+    <div id='faq' className="min-h-[50rem] w-full rounded-md bg-gradient-to-b  from-[#010012] to-[#05042c] relative flex flex-col items-center justify-center antialiased">
       <div className="max-w-3xl mx-auto p-4 z-10 w-full">
         <h1 className="text-lg md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-amber-400 to-amber-600 text-center font-sans font-bold mb-8">
           FAQ
         </h1>
         
-        <div className="bg-blue-900/20 backdrop-blur-sm rounded-lg p-6 border border-blue-800/30">
+        <div 
+          style={{
+            backgroundColor: "rgba(94, 83, 255, 0.47)", // equivalent to bg-blue-500/20
+            backdropFilter: "blur(4px)", // equivalent to backdrop-blur-sm
+            padding: "1.5rem", // p-6
+            border: "1px solid rgba(94, 131, 255, 0.3)", // border-blue-800/30
+            boxShadow: "0 0 15px rgba(255, 255, 255, 0.13)" // glowing blue glow
+          }}
+        className="bg-blue-500/20 backdrop-blur-sm rounded-lg p-6 border border-blue-800/30">
+          
           {faqData.map((faq, index) => (
             <FaqItem 
               key={index}

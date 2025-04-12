@@ -2,6 +2,7 @@ import React from 'react';
 import { ShootingStars } from './ui/shooting-stars';
 import { StarsBackground } from './ui/stars-background';
 import { HoverEffect } from '../components/ui/card-hover-effect';
+import "../styles/join.css"
 
 // Updated projects array with new descriptions and image URLs
 export const projects = [
@@ -37,7 +38,7 @@ export const projects = [
 
 const Joinus = () => {
   return (
-    <div className='bg-gradient-to-b from-[#010012] to-[#05042c]'>
+    <div id='join' className='bg-gradient-to-b from-[#010012] to-[#05042c]'>
       <div className="pt-40 pb-20 px-4 md:px-12 lg:px-20 rounded-md bg-transparent flex flex-col items-center justify-center relative w-full">
         <h1 className="text-4xl text-center md:text-8xl bg-clip-text text-transparent bg-gradient-to-b from-amber-400 to-amber-600 font-sans font-bold mb-8">
           Join Us

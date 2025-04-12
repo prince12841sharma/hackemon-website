@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 // import car from "../assets/travel/car.jpg";
 // import broomstick from "../assets/travel/broomstick.jpg";
 // import train from "../assets/travel/train.jpg";
+import "../styles/contact.css"
 
 const GoogleMap = () => {
   return (
@@ -51,7 +52,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-transparent text-gray-100 pt-32 min-h-screen px-4 sm:px-6 md:px-12 lg:px-20">
+    <div id='contact' className="bg-transparent text-gray-100 pt-32 min-h-screen px-4 sm:px-6 md:px-12 lg:px-20">
       <div className="max-w-full mx-auto">
         <motion.h1 
           className="text-3xl md:text-5xl font-bold mb-4 md:mb-8 text-purple-600 text-center mt-6 md:mt-10"
