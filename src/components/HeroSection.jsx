@@ -139,7 +139,7 @@ const Herosection = () => {
               initial="hidden"
               animate="visible"
               variants={buttonVariants}
-              onClick={() => window.location.href = 'https://www.hackquest.io/hackathons/HACKEMON'}
+              onClick={() => window.location.href = 'https://unstop.com/o/1a9RmCt?lb=msdOFslC'}
             >
               <p className="text-[#EEF2F8] cursor-pointer font-[Fredoka_One] text-2xl md:text-4xl font-extrabold leading-normal">
                 Register
