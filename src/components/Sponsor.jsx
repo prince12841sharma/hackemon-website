@@ -72,16 +72,21 @@ const Sponsor = () => {
   We're grateful to our venue partner for providing the perfect space to bring our event to life
 </p>
 
+<div className="mb-16 relative">
+        {/* <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-white border-b border-amber-500 pb-2 max-w-xs mx-auto">
+          Platinum Sponsors
+        </h2> */}
 
-        <div
-          className="hidden md:inline md:absolute z-90 right-20 -top-16 md:-top-16 w-32 h-32 md:w-56 md:h-56  pointer-events-none"
+<div 
+          className="hidden md:inline md:absolute z-90 -left-10 -top-16 md:-top-16 w-40 h-40 md:w-[20rem] md:h-[20rem]  pointer-events-none"
           style={{
-            backgroundImage: `url(${bluecolor})`,
+            backgroundImage: `url(${char})`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center"
           }}
         ></div>
+
         <div className="flex flex-wrap justify-center gap-8">
           {sponsors.slice(1, 2).map((sponsor, index) => (
             <SponsorCard 
@@ -96,6 +101,10 @@ const Sponsor = () => {
             />
           ))}
         </div>
+      </div>
+
+
+
 
       {/* gold sponsor */}
       {/* <div className="mb-16 relative">
