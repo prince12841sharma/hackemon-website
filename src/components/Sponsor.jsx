@@ -4,59 +4,23 @@ import bluecolor from "../assets/gif/bluecolor.gif";
 import turtle from "../assets/gif/turtle.gif";
 import char from "../assets/gif/char.gif";
 
+import geekroom from "../assets/sponsor/geekroom.png"
+import gcet from "../assets/sponsor/gcet.jpg"
+
 const Sponsor = () => {
   // Sponsor data with name, image URL and website URL
   const sponsors = [
     {
-      name: "Avalanche Demo",
-      imageUrl: "https://placehold.co/400x150/3A3A3A/FFFFFF?text=Avalanche Demo",
-      websiteUrl: "https://example.com/Avalanche"
+      name: "GeekRoom",
+      imageUrl: geekroom,
+      websiteUrl: "https://www.geekroom.in/"
     },
     {
-      name: "Starkware Demo",
-      imageUrl: "https://placehold.co/400x150/3A3A3A/FFFFFF?text=Starkware Demo",
-      websiteUrl: "https://example.com/Starkware"
+      name: "Galgotias College of Engineering & Technology",
+      imageUrl: gcet,
+      websiteUrl: "https://galgotiacollege.edu/"
     },
-    {
-      name: "FutureTech",
-      imageUrl: "https://placehold.co/250x250/323232/FFFFFF?text=FutureTech",
-      websiteUrl: "https://example.com/futuretech"
-    },
-    {
-      name: "CodeMasters",
-      imageUrl: "https://placehold.co/350x180/2A2A2A/FFFFFF?text=CodeMasters",
-      websiteUrl: "https://example.com/codemasters"
-    },
-    {
-      name: "DigitalSolutions",
-      imageUrl: "https://placehold.co/280x220/363636/FFFFFF?text=DigitalSolutions",
-      websiteUrl: "https://example.com/digitalsolutions"
-    },
-    {
-      name: "CloudNine",
-      imageUrl: "https://placehold.co/320x190/303030/FFFFFF?text=CloudNine",
-      websiteUrl: "https://example.com/cloudnine"
-    },
-    {
-      name: "DataDrive",
-      imageUrl: "https://placehold.co/200x180/3F3F3F/FFFFFF?text=DataDrive",
-      websiteUrl: "https://example.com/datadrive"
-    },
-    {
-      name: "AIVentures",
-      imageUrl: "https://placehold.co/270x230/282828/FFFFFF?text=AIVentures",
-      websiteUrl: "https://example.com/aiventures"
-    },
-    {
-      name: "NexGen",
-      imageUrl: "https://placehold.co/290x170/2D2D2D/FFFFFF?text=NexGen",
-      websiteUrl: "https://example.com/nexgen"
-    },
-    {
-      name: "SmartSystems",
-      imageUrl: "https://placehold.co/310x210/333333/FFFFFF?text=SmartSystems",
-      websiteUrl: "https://example.com/smartsystems"
-    }
+
   ];
 
   return (
@@ -72,9 +36,9 @@ const Sponsor = () => {
 
       {/* Platinum Sponsors */}
       <div className="mb-16 relative">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-white border-b border-amber-500 pb-2 max-w-xs mx-auto">
+        {/* <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-white border-b border-amber-500 pb-2 max-w-xs mx-auto">
           Platinum Sponsors
-        </h2>
+        </h2> */}
         <div
           className="hidden md:inline md:absolute z-90 right-20 -top-16 md:-top-16 w-32 h-32 md:w-56 md:h-56  pointer-events-none"
           style={{
@@ -85,7 +49,7 @@ const Sponsor = () => {
           }}
         ></div>
         <div className="flex flex-wrap justify-center gap-8">
-          {sponsors.slice(0, 2).map((sponsor, index) => (
+          {sponsors.slice(0, 1).map((sponsor, index) => (
             <SponsorCard 
               key={index}
               sponsor={sponsor} 
@@ -100,10 +64,43 @@ const Sponsor = () => {
         </div>
       </div>
 
-      {/* Gold Sponsors */}
-      <div className="mb-16 relative">
+
+      <h1 className="text-4xl text-center md:text-6xl lg:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-amber-400 to-amber-600 mb-4">
+          Venue Partner
+        </h1>
+        <p className="text-white text-center mb-16 text-lg md:text-xl max-w-3xl mx-auto opacity-80">
+  We're grateful to our venue partner for providing the perfect space to bring our event to life
+</p>
+
+
+        <div
+          className="hidden md:inline md:absolute z-90 right-20 -top-16 md:-top-16 w-32 h-32 md:w-56 md:h-56  pointer-events-none"
+          style={{
+            backgroundImage: `url(${bluecolor})`,
+            backgroundSize: "contain",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center"
+          }}
+        ></div>
+        <div className="flex flex-wrap justify-center gap-8">
+          {sponsors.slice(1, 2).map((sponsor, index) => (
+            <SponsorCard 
+              key={index}
+              sponsor={sponsor} 
+              index={index}
+              size="large"
+              cardClass="bg-gradient-to-br from-zinc-300/50 to-zinc-400/90 rounded-xl p-6 border border-zinc-700 h-80"
+              imageClass="h-48"
+              titleClass="text-xl font-semibold text-white"
+              linkClass="text-amber-500 mt-2 hover:underline block"
+            />
+          ))}
+        </div>
+
+      {/* gold sponsor */}
+      {/* <div className="mb-16 relative">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-white border-b border-amber-400 pb-2 max-w-xs mx-auto">
-          Gold Sponsors
+          Gold Sponso
         </h2>
         <div 
           className="hidden md:inline md:absolute z-90 -left-10 -top-16 md:-top-16 w-40 h-40 md:w-[20rem] md:h-[20rem]  pointer-events-none"
@@ -115,7 +112,7 @@ const Sponsor = () => {
           }}
         ></div>
         <div className="flex flex-wrap justify-center gap-6">
-          {sponsors.slice(2, 5).map((sponsor, index) => (
+          {sponsors.slice(1, 2).map((sponsor, index) => (
             <SponsorCard 
               key={index} 
               sponsor={sponsor} 
@@ -128,28 +125,28 @@ const Sponsor = () => {
             />
           ))}
         </div>
-      </div>
+      </div> */}
 
-      {/* Silver Sponsors */}
-      <div>
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-white border-b border-gray-400 pb-2 max-w-xs mx-auto">
-          Silver Sponsors
-        </h2>
-        <div className="flex flex-wrap justify-center gap-4">
-          {sponsors.slice(5, 10).map((sponsor, index) => (
-            <SponsorCard 
-              key={index} 
-              sponsor={sponsor} 
-              index={index}
-              size="small"
-              cardClass="bg-gradient-to-br from-zinc-800 to-zinc-900 rounded-xl p-4 border border-zinc-700 h-52"
-              imageClass="h-32"
-              titleClass="text-base font-medium text-white"
-              linkClass="text-gray-300 mt-1 text-xs hover:underline block"
-            />
-          ))}
-        </div>
-      </div>
+     
+        {/* <div>
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-white border-b border-gray-400 pb-2 max-w-xs mx-auto">
+            Venue Partner
+          </h2>
+          <div className="flex flex-wrap justify-center gap-4">
+            {sponsors.slice(1, 2).map((sponsor, index) => (
+              <SponsorCard 
+                key={index} 
+                sponsor={sponsor} 
+                index={index}
+                size="small"
+                cardClass="bg-gradient-to-br from-zinc-800 to-zinc-900 rounded-xl p-4 border border-zinc-700 h-52"
+                imageClass="h-32"
+                titleClass="text-base font-medium text-white"
+                linkClass="text-gray-300 mt-1 text-xs hover:underline block"
+              />
+            ))}
+          </div>
+        </div> */}
 
     </div>
   );

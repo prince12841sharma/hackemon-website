@@ -24,7 +24,7 @@ const Home = () => {
           <ShootingStars minSpeed={10} minDelay={4200} starWidth={20} starHeight={2} />
           <StarsBackground starDensity={0.0002} maxTwinkleSpeed={1} />
         <Schedule />
-        {/* <Sponsor /> */}
+        <Sponsor />
         <CommunityPartners />
         </div>
     </div>
