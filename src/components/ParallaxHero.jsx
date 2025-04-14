@@ -8,14 +8,15 @@ import {
 } from "framer-motion";
 import { SiSpacex } from "react-icons/si";
 import { FiArrowRight, FiMapPin } from "react-icons/fi";
-import ShiftingCountdown from './ShiftingCountdown';
-import bhawna from "../assets/previous_year/Bhawna.jpg";
-import Speaker from "../assets/previous_year/Speaker.jpg";
-import swags from "../assets/swags.jpg";
+
 import WomensDay from "../assets/womensDay.png";
 import pikabg from "../assets/pikabg.jpg";
-import image from "../assets/previous_year/image.png";
 import bird from "../assets/gif/bird.gif";
+
+import meet from "../assets/previous_year/meet.jpg";
+import allgirls from "../assets/previous_year/allgirls.jpg";
+import shebuilds from "../assets/previous_year/shebuilds.jpg";
+import group from "../assets/previous_year/group.jpg";
 
 
 export const SmoothScrollHero = () => {
@@ -148,32 +149,32 @@ const ParallaxImages = () => {
   return (
     <div className="mx-auto max-w-7xl px-4 pt-[150px] md:pt-[200px]"> {/* Reduced top padding on mobile */}
       <ParallaxImg
-        src={bhawna}
+        src={allgirls}
         alt="Space launch"
         start={-200}
         end={200}
         className="w-2/5 md:w-3/3"
       />
       <ParallaxImg
-        src={image}
+        src={shebuilds}
         alt="Rocket launch"
         start={200}
         end={-250}
-        className="mx-auto w-4/5 md:w-2/3 mt-8 md:mt-16" /* Reduced vertical spacing on mobile */
+        className="mx-auto w-4/5 md:w-3/3 mt-8 md:mt-16" /* Reduced vertical spacing on mobile */
       />
       <ParallaxImg
-        src={Speaker}
+        src={meet}
         alt="Orbiting satellite"
         start={-200}
         end={200}
         className="ml-auto w-2/5 md:w-1/3 mt-8 md:mt-16" /* Reduced vertical spacing on mobile */
       />
       <ParallaxImg
-        src={swags}
+        src={group}
         alt="Satellite"
         start={0}
         end={-500}
-        className="ml-12 md:ml-24 w-7/12 md:w-6/12 mt-8 md:mt-16 mb-8 md:mb-0" /* Added bottom margin only on mobile */
+        className="ml-12 md:ml-24 w-12/12 md:w-6/12 mt-8 md:mt-16 mb-8 md:mb-0" /* Added bottom margin only on mobile */
       />
     </div>
   );

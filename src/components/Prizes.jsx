@@ -3,13 +3,10 @@ import "../styles/prizes.css";
 import SpotlightCard from '../components/ui/SpotlightCard.jsx';
 
 // images
-import offline2 from "../assets/prizes/2ndoffline.png";
-import offline1 from "../assets/prizes/1offline.png";
-import offline3 from "../assets/prizes/3offline.png";
 
-import first from "../assets/first.jpeg";
-import second from "../assets/second.jpeg";
-import girls from "../assets/girls.jpg";
+import first from "../assets/prizes/first.jpg";
+import second from "../assets/prizes/second.jpg";
+import girls from "../assets/prizes/allgirls.jpg";
 
 
 

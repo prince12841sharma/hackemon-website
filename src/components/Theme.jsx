@@ -3,6 +3,7 @@ import "../styles/theme.css";
 import CircularGallery from '../components/ui/CircularGallery.jsx';
 
 
+
 import mew from "../assets/gif/mew.gif";
 
 const Theme = () => {

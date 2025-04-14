@@ -9,11 +9,17 @@ import {
   Texture,
 } from 'ogl'
 
-import web from "../../assets/theme/web.jpg"
-import ai from "../../assets/theme/ai.jpg"
-import ar from "../../assets/theme/ar.jpg"
-import inovation from "../../assets/theme/inovation.jpg"
-import cyber from "../../assets/theme/cyber.jpg"
+
+import one from "../../assets/theme/1.png"
+import two from "../../assets/theme/2.png"
+import three from "../../assets/theme/3.png"
+import four from "../../assets/theme/4.png"
+import five from "../../assets/theme/5.png"
+
+import six from "../../assets/theme/6.png"
+import seven from "../../assets/theme/7.png"
+import eight from "../../assets/theme/8.png"
+import nine from "../../assets/theme/9.png"
 
 function debounce(func, wait) {
   let timeout
@@ -334,11 +340,11 @@ class App {
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
-      { image: web, text: 'WEB3 AND BLOCKCHAIN' },
-      { image: ai, text: 'AI/ MACHINE LEARNING' },
-      { image: ar, text: 'AR / VR' },
-      { image: cyber, text: 'CYBERSECURITY' },
-      { image: inovation, text: 'OPEN INNOVATION' },
+      { image: one, text: 'WEB3 AND BLOCKCHAIN' },
+      { image: two, text: 'AI/ MACHINE LEARNING' },
+      { image: three, text: 'AR / VR' },
+      { image: four, text: 'CYBERSECURITY' },
+      { image: five, text: 'OPEN INNOVATION' },
     ]
     const galleryItems = items && items.length ? items : defaultItems
     this.mediasImages = galleryItems.concat(galleryItems)
