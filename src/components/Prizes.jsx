@@ -204,7 +204,7 @@ const Prizes = () => {
               Special Awards
             </h1>
 
-            <div className='flex flex-col md:flex-row gap-8 px-4 md:px-8 py-4 justify-center'>
+            <div className='flex flex-col md:flex-row  gap-8 px-4 md:px-8 py-4 justify-center'>
               <PrizeCard 
                 image={girls} 
                 position="Best Girls Team" 
