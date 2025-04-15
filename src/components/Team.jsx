@@ -17,6 +17,11 @@ import Nandini from "../assets/Nandini.jpg";
 import Umesh from "../assets/Umesh.jpg";
 import madhur from "../assets/madhur.jpg";
 import ananya from "../assets/ananya.jpg";
+
+import Yukti from "../assets/Yukti.jpg";
+
+
+
 import { ShootingStars } from './ui/shooting-stars.jsx';
 import { StarsBackground } from './ui/stars-background.jsx';
 
@@ -35,6 +40,7 @@ const Team = () => {
     // { image: Bhawna, name: "Bhawna ", linkedin: "https://www.linkedin.com/in/connectbhawna/" , role : "Founder" },
     { image: Shikhar, name: "Shikhar", linkedin: "https://www.linkedin.com/in/shikharsingh0712" ,role : "Sponsorship Team" },
     { image: Utkarsh, name: "Utkarsh", linkedin: "https://www.linkedin.com/in/utkarsh-yadav-079ba327b?" ,role : "Graphics Lead" },
+    { image: Yukti, name: "Yukti", linkedin: "https://www.linkedin.com/in/yukti-thakral-28192b253/" ,role : "Participant Experience" },
     { image: Nandini, name: "Nandini", linkedin: "https://www.linkedin.com/in/nandini-079ba327b?" ,role : "Graphics Lead" },
     { image: ananya, name: "Ananya", linkedin: "https://www.linkedin.com/in/ananya-agarwal5501?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,role : "Content Lead" },
     { image: Umesh, name: "Umesh", linkedin: "https://www.linkedin.com/" ,role : "Social Lead" },
