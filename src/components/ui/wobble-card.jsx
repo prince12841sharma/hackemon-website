@@ -23,7 +23,7 @@ export const WobbleCard = ({ children, containerClassName, className }) => {
       }}
       style={{
         transform: isHovering
-          ? `translate3d(${mousePosition.x}px, ${mousePosition.y}px, 0) scale3d(1.02, 1.02, 1)`
+          ? `translate3d(${mousePosition.x}px, ${mousePosition.y}px, 0) scale3d(1.05, 1.05, 1)`
           : "translate3d(0px, 0px, 0) scale3d(1, 1, 1)",
         transition: "transform 0.4s ease-out", // Slower transition for smoother effect
       }}
@@ -40,12 +40,6 @@ export const WobbleCard = ({ children, containerClassName, className }) => {
           "transition-opacity duration-700" // Slower transition for the border
         )}
         style={{
-          background: `linear-gradient(45deg, 
-            rgba(255, 0, 128, 0.8), 
-            rgba(255, 153, 0, 0.8), 
-            rgba(102, 204, 0, 0.8), 
-            rgba(0, 204, 255, 0.8), 
-            rgba(153, 51, 255, 0.8))`,
           backgroundSize: "200% 200%",
           animation: isHovering ? "gradientShift 3s ease infinite" : "none",
           padding: "2px", // Border thickness
@@ -55,7 +49,7 @@ export const WobbleCard = ({ children, containerClassName, className }) => {
       {/* Main content container */}
       <div
         className={cn(
-          "bg-indigo-800 relative z-10 rounded-2xl h-full w-full",
+          " relative z-10 rounded-2xl h-full w-full",
           className
         )}
       >

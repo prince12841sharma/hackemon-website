@@ -40,7 +40,7 @@ const Sponsor = () => {
           Platinum Sponsors
         </h2> */}
         <div
-          className="hidden md:inline md:absolute z-90 right-20 -top-16 md:-top-16 w-32 h-32 md:w-56 md:h-56  pointer-events-none"
+          className="hidden md:inline md:absolute z-90 right-20  md:-top-[13rem] w-32 h-32 md:w-56 md:h-56  pointer-events-none"
           style={{
             backgroundImage: `url(${bluecolor})`,
             backgroundSize: "contain",
@@ -55,7 +55,7 @@ const Sponsor = () => {
               sponsor={sponsor} 
               index={index}
               size="large"
-              cardClass="bg-gradient-to-br from-zinc-300/50 to-zinc-400/90 rounded-xl p-6 border border-zinc-700 h-80"
+              cardClass="bg-transparent p-6 h-80"
               imageClass="h-48"
               titleClass="text-xl font-semibold text-white"
               linkClass="text-amber-500 mt-2 hover:underline block"
@@ -78,7 +78,7 @@ const Sponsor = () => {
         </h2> */}
 
 <div 
-          className="hidden md:inline md:absolute z-90 -left-10 -top-16 md:-top-16 w-40 h-40 md:w-[20rem] md:h-[20rem]  pointer-events-none"
+          className="hidden md:inline md:absolute z-90 -left-12 md:-top-[18rem] w-40 h-40 md:w-[20rem] md:h-[20rem]  pointer-events-none"
           style={{
             backgroundImage: `url(${char})`,
             backgroundSize: "contain",
@@ -94,7 +94,7 @@ const Sponsor = () => {
               sponsor={sponsor} 
               index={index}
               size="large"
-              cardClass="bg-gradient-to-br from-zinc-300/50 to-zinc-400/90 rounded-xl p-6 border border-zinc-700 h-80"
+              cardClass="  p-6  h-80"
               imageClass="h-48"
               titleClass="text-xl font-semibold text-white"
               linkClass="text-amber-500 mt-2 hover:underline block"
