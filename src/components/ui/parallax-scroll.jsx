@@ -72,7 +72,7 @@ export const ParallaxScroll = ({ images, className, names = [], linkedinIds = []
           borderRadius: "20px"
         }} 
         key={`grid-${columnIdx + 1}-${idx}`}
-        className="relative group overflow-hidden border-4 border-stone-400/50 mb-6 sm:mb-0"
+        className="relative group overflow-hidden  border-4 border-stone-400/80 mb-6 sm:mb-0"
       >
         <img 
           src={image} 
@@ -107,7 +107,10 @@ export const ParallaxScroll = ({ images, className, names = [], linkedinIds = []
     return (
       <div 
         key={`mobile-grid-${item.column}-${item.index}`}
-        className="relative group overflow-hidden border-4 border-stone-400/50 mb-6"
+        className="relative group overflow-hidden border-4 border-stone-500/80  mb-6"
+        style={{
+          borderRadius : "15px"
+        }}
       >
         <img 
           src={item.image} 

@@ -23,7 +23,7 @@ function App() {
 
   return (
     <Router>
-      <ClickSpark sparkColor="#fff" sparkSize={10} sparkRadius={15} sparkCount={8} duration={400}>
+      <ClickSpark sparkColor="#fff" sparkSize={15} sparkRadius={18} sparkCount={10} duration={500}>
         {isLoading ? (
           <Loading onComplete={() => setIsLoading(false)} />
         ) : (
