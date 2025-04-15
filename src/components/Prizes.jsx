@@ -180,13 +180,13 @@ const Prizes = () => {
               <PrizeCard 
                 image={first} 
                 position="1st Position" 
-                prize="30,000" 
+                prize="25,000" 
                 color="#96151F"
               />
               <PrizeCard 
                 image={second} 
                 position="2nd Position" 
-                prize="20,000" 
+                prize="10,000" 
                 color="#21B916"
               />
             </div>

@@ -340,8 +340,8 @@ class App {
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
-      { image: one, text: 'WEB3 AND BLOCKCHAIN' },
-      { image: two, text: 'AI/ MACHINE LEARNING' },
+      { image: one, text: 'WEB3 & BLOCKCHAIN' },
+      { image: two, text: 'AI/ ML' },
       { image: three, text: 'AR / VR' },
       { image: four, text: 'CYBERSECURITY' },
       { image: five, text: 'OPEN INNOVATION' },
