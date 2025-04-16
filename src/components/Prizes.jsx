@@ -129,10 +129,10 @@ const Prizes = () => {
               />
             </div>
             <h1 
-              className='text-xl md:text-4xl mt-4 font-extrabold' 
+              className='text-xl md:text-4xl text-white mt-4 font-extrabold' 
               dangerouslySetInnerHTML={{ __html: position }}
             ></h1>
-            <p className='text-base md:text-2xl font-normal'>{prize}</p>
+            <p className='text-base md:text-2xl text-stone-300 font-normal'>{prize}</p>
           </div>
         </SpotlightCard>
       </div>

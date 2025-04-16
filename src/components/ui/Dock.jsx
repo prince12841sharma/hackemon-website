@@ -98,7 +98,7 @@ import {
   
   function DockIcon({ children, className = "" }) {
     return (
-      <div className={`flex items-center justify-center ${className}`}>
+      <div className={`flex text-white items-center justify-center ${className}`}>
         {children}
       </div>
     );
