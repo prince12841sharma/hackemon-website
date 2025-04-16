@@ -95,19 +95,19 @@ const Herosection = () => {
       
       
       {/* Moon and Pikachu images container */}
-      <div className='hidden md:block absolute h-full right-0 md:w-3/4 md:block'>
+      <div className='hidden  md:block absolute h-full right-0 md:w-3/4 md:block'>
         {/* Moon image - Adjusted for mobile */}
         <div className='absolute top-0 md:w-full md:left-60 left-0 scale-75 md:scale-100 origin-top-right md:origin-top-left'>
             <img
-              className='md:w-[80%] w-full md:h-[50%] moon-glow'
+              className=' md:w-[80%] w-full md:h-[50%] moon-glow'
               src={moon}
               alt='moon'
             />
           </div>
 
-        <div className='hidden md:block absolute top-0 md:w-full md:left-[25rem] left-[40%] scale-75 md:scale-100'>
+        <div className='hidden  md:block absolute top-0 md:w-full md:left-[25rem] left-[40%] scale-75 md:scale-100'>
           <img           
-            className='md:w-[50%] w-[70%]' src={pika} alt='pikachu' />
+            className='md:w-[50%] w-[70%] '  src={pika} alt='pikachu' />
         </div>
         
       </div>
