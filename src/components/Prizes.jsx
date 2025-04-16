@@ -180,13 +180,13 @@ const Prizes = () => {
               <PrizeCard 
                 image={first} 
                 position="1st Position" 
-                prize="25,000" 
+                prize="Pirze Pool - 25,000" 
                 color="#96151F"
               />
               <PrizeCard 
                 image={second} 
                 position="2nd Position" 
-                prize="10,000" 
+                prize="Pirze Pool - 10,000" 
                 color="#21B916"
               />
             </div>
@@ -208,7 +208,7 @@ const Prizes = () => {
               <PrizeCard 
                 image={girls} 
                 position="Best Girls Team" 
-                prize="10,000" 
+                prize="Pirze Pool - 10,000" 
                 color="#21B916"
               />
               {/* <PrizeCard 

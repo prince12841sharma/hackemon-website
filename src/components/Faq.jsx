@@ -56,7 +56,7 @@ const Faq = () => {
     },
     {
       question: "How do I register for Hackemon events?",
-      answer: "You can register for the Hackèmon by going directly at the official website or through the Hackquest listing, also you can register through the registration links present on the SheBuilds handle on different social media platforms."
+      answer: "You can register for the Hackèmon by going directly at the official website or through the Unstop listing, also you can register through the registration links present on the SheBuilds handle on different social media platforms."
     },
     {
       question: "Are Hackemon events open to beginners?",

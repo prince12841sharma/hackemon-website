@@ -22,9 +22,9 @@ const Schedule = () => {
 
   <ScheduleItem title="Opening Ceremony (Introduction, Rules, Judging Criteria)" date="3:30 PM - 4:00 PM" location="Online" />
   <ScheduleItem title="Expert Talks & Sponsor Presentations" date="4:00 PM – 5:00 PM" location="Online" />
-  <ScheduleItem title="Idea Submission (PPT, Video, Prototype)" date="5:00 PM – 6:00 PM" location="Online" />
   <ScheduleItem title="First Mentoring Round" date="6:00 PM – 9:00 PM" location="Online" />
   <ScheduleItem title="Icebreaker & Networking" date="10:00 PM – 11:00 PM" location="Online" />
+  <ScheduleItem title="Idea Submission (PPT, Video, Prototype)" date="11:00 PM – 12:00 PM" location="Online" />
 
   <motion.h1
     initial={{ y: 48, opacity: 0 }}

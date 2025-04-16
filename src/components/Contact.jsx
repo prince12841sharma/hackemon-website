@@ -106,8 +106,9 @@ const Contact = () => {
                 <h2 className="text-xl md:text-2xl font-bold text-pink-400">By Car</h2>
               </div>
               <p className="text-gray-200 text-sm md:text-base">
-                You can directly navigate to the Hackemon Hackathon venue at GCET using Google Maps. 
-                The venue is easily accessible via NH9 and is well-connected to major roads.
+              You can directly navigate to the Hackemon Hackathon venue at GCET using Google Maps. The venue is easily accessible via NH9 and is well-connected to major roads.
+              You can also book a cab or taxi directly to the campus.
+
               </p>
             </motion.div>
             
@@ -123,13 +124,19 @@ const Contact = () => {
               </div>
               <ul className="text-gray-200 space-y-1 md:space-y-2 text-sm md:text-base">
                 <li>
-                  <span className="font-semibold">From Ghaziabad Railway Station:</span> Book a cab or 
-                  take an auto-rickshaw directly to the SheBuild Hackathon at Galgotias College of Engineering & Technology.
-                </li>
+                  <span className="font-semibold">From Ghaziabad Railway Station:</span> 
+                  Book a cab or take an auto-rickshaw directly to the SheBuild Hackathon at Galgotias College of Engineering & Technology.
+                  </li>
                 <li>
-                  <span className="font-semibold">From New Delhi Railway Station:</span> Take the metro 
-                  from New Delhi Metro Station (Yellow Line) to Noida Electronic City Metro 
-                  Station (Blue Line). Then, book a cab or take an auto to GCET.
+                <li>
+                  <span className='font-semibold'> From New Delhi Railway Station:</span>
+                  Take the metro from New Delhi Metro Station (Yellow Line) to Rajiv Chowk, then switch to the Blue Line towards Noida Electronic City.
+                  <br />
+                  Get off at Noida Sector 52, then walk to Sector 51 (a short distance).
+                From Sector 51, switch to the Aqua Line and get down at Knowledge Park II Metro Station. 
+
+                </li>
+                  
                 </li>
               </ul>
             </motion.div>
@@ -146,11 +153,15 @@ const Contact = () => {
               </div>
               <ul className="text-gray-200 space-y-1 md:space-y-2 text-sm md:text-base">
                 <li>
-                  <span className="font-semibold">Option 1:</span> Book a cab directly to Hackemon Hackathon venue at Galgotias College of Engineering & Technology.
+                  <span className="font-semibold">Option 1:</span>Book a cab directly to the Hackemon Hackathon venue at Galgotias College of Engineering & Technology, Greater Noida.
                 </li>
                 <li>
-                  <span className="font-semibold">Option 2:</span> Take the metro from the airport to Noida 
-                  Electronic City Metro Station (Blue Line) and then book a cab or take an auto to the venue.
+                  <span className="font-semibold">Option 2:</span> From the airport, take the Airport Express (Orange Line) to New Delhi Metro Station.
+Switch to the Yellow Line towards Millennium City Centre and get off at Rajiv Chowk.
+From Rajiv Chowk, take the Blue Line towards Noida Electronic City and get down at Sector 52.
+Walk to Sector 51 and change to the Aqua Line.
+Get down at Knowledge Park II Metro Station.
+
                 </li>
               </ul>
             </motion.div>
