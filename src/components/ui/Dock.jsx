@@ -85,7 +85,7 @@ import {
             animate={{ opacity: 1, y: -10 }}
             exit={{ opacity: 0, y: 0 }}
             transition={{ duration: 0.2 }}
-            className={`${className} absolute -top-6 left-1/2 w-fit whitespace-pre rounded-md border border-gray-300 bg-white bg-opacity-90 px-2 py-0.5 text-xs text-gray-800`}
+            className={`${className} absolute -top-6 left-1/2 w-fit whitespace-pre bg-rose-300 font-bold rounded-lg  bg-white bg-opacity-90 px-2 py-0.5 text-xs text-gray-800`}
             role="tooltip"
             style={{ x: "-50%" }}
           >
