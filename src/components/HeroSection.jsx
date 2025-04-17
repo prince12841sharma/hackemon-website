@@ -109,6 +109,21 @@ const Herosection = () => {
           <img           
             className='md:w-[50%] w-[70%] '  src={pika} alt='pikachu' />
         </div>
+
+        <motion.div className='hidden md:block md:absolute z-[90] md:right-[22rem]  md:bottom-8'
+          initial="hidden"
+          animate="visible"
+          variants={dockvariant}
+          >
+            
+              <Dock 
+            items={items}
+            panelHeight={68}
+            baseItemSize={50}
+            magnification={70}
+          />
+          </motion.div>
+        
         
       </div>
 
@@ -158,19 +173,7 @@ const Herosection = () => {
         </div>
       </div>
           
-          <motion.div className='hidden md:block md:absolute z-[90] md:right-[22rem] md:bottom-8'
-          initial="hidden"
-          animate="visible"
-          variants={dockvariant}
-          >
-            
-              <Dock 
-            items={items}
-            panelHeight={68}
-            baseItemSize={50}
-            magnification={70}
-          />
-          </motion.div>
+
 
     </div>
   )

@@ -20,6 +20,13 @@ import ananya from "../assets/ananya.jpg";
 
 import Yukti from "../assets/Yukti.jpg";
 
+import Parth from "../assets/Parth.jpg";
+import Pratyush from "../assets/Pratyush.jpg";
+import Manas from "../assets/Manas.jpg";
+import Ujjwal from "../assets/Ujjwal.jpg";
+import Vibhor from "../assets/Vibhor.jpg";
+import Akshat from "../assets/Akshat.jpeg";
+
 
 
 import { ShootingStars } from './ui/shooting-stars.jsx';
@@ -29,22 +36,30 @@ import { StarsBackground } from './ui/stars-background.jsx';
 const Team = () => {
   // Array with both images and team member information
   const teamMembers = [
-    { image: Nikitaji, name: "Nikita", linkedin: "https://www.linkedin.com/in/nikita-kumari-58455b284/" , role : "Overall Incharge"},
-    { image: Khushi, name: "Khushi ", linkedin: "https://linkedin.com/in/smilewithkhushi" , role : "Sponsorship Team" },
-    { image: Prince, name: "Prince", linkedin: "https://www.linkedin.com/in/prince-sharma-047973253" , role : "Technical Lead" },
-    { image: Manik, name: "Manik ", linkedin: "https://www.linkedin.com/in/mrmanik" , role : "Sponsorship Team" },
-    { image: Keshav, name: "Keshav", linkedin: "https://www.linkedin.com/in/keshav-dayal/" , role : "PR/Outreach Lead" },
-    { image: Ekta, name: "Ekta ", linkedin: "https://www.linkedin.com/in/theektaagrawal/" , role : "Agenda Team" },
-    { image: Teeksha, name: "Teeksha ", linkedin: "https://www.linkedin.com/in/teeksha-harish-5895a0234/" , role : "Agenda Team" },
-    { image: Ridhim, name: "Ridhim", linkedin: "https://www.linkedin.com/in/ridhim-gupta/" , role : "PR/Outreach Lead"},
-    // { image: Bhawna, name: "Bhawna ", linkedin: "https://www.linkedin.com/in/connectbhawna/" , role : "Founder" },
-    { image: Shikhar, name: "Shikhar", linkedin: "https://www.linkedin.com/in/shikharsingh0712" ,role : "Sponsorship Team" },
-    { image: Utkarsh, name: "Utkarsh", linkedin: "https://www.linkedin.com/in/utkarsh-yadav-079ba327b?" ,role : "Graphics Lead" },
+    { image: Bhawna, name: "Bhawna ", linkedin: "https://www.linkedin.com/in/connectbhawna/" , role : "Founder" },
     { image: Yukti, name: "Yukti", linkedin: "https://www.linkedin.com/in/yukti-thakral-28192b253/" ,role : "Participant Experience" },
     { image: Nandini, name: "Nandini", linkedin: "https://www.linkedin.com/in/nandini-079ba327b?" ,role : "Graphics Lead" },
+    { image: Manik, name: "Manik ", linkedin: "https://www.linkedin.com/in/mrmanik" , role : "Sponsorship Team" },
+    { image: Keshav, name: "Keshav", linkedin: "https://www.linkedin.com/in/keshav-dayal/" , role : "PR/Outreach Lead" },
+    { image: Ridhim, name: "Ridhim", linkedin: "https://www.linkedin.com/in/ridhim-gupta/" , role : "PR/Outreach Lead"},
+    { image: Shikhar, name: "Shikhar", linkedin: "https://www.linkedin.com/in/shikharsingh0712" ,role : "Sponsorship Team" },
+    { image: Utkarsh, name: "Utkarsh", linkedin: "https://www.linkedin.com/in/utkarsh-yadav-079ba327b?" ,role : "Graphics Lead" },
+    { image: Nikitaji, name: "Nikita", linkedin: "https://www.linkedin.com/in/nikita-kumari-58455b284/" , role : "Overall Incharge"},
+    { image: Teeksha, name: "Teeksha ", linkedin: "https://www.linkedin.com/in/teeksha-harish-5895a0234/" , role : "Agenda Team" },
     { image: ananya, name: "Ananya", linkedin: "https://www.linkedin.com/in/ananya-agarwal5501?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,role : "Content Lead" },
+    { image: Manas, name: "Manas", linkedin: "https://linkedin.com/in/themanas95826" ,role : "Geek Room" },
     { image: Umesh, name: "Umesh", linkedin: "https://www.linkedin.com/" ,role : "Social Lead" },
     { image: madhur, name: "Madhur", linkedin: "https://linktr.ee/Madhur_Sapra" ,role : "Content Lead" },
+    { image: Parth, name: "Parth", linkedin: "https://linktr.ee/Madhur_Sapra" ,role : "Content Lead" },
+    { image: Pratyush, name: "Pratyush", linkedin: "https://linktr.ee/Madhur_Sapra" ,role : "Content Lead" },
+    { image: Ekta, name: "Ekta ", linkedin: "https://www.linkedin.com/in/theektaagrawal/" , role : "Agenda Team" },
+    { image: Khushi, name: "Khushi ", linkedin: "https://linkedin.com/in/smilewithkhushi" , role : "Sponsorship Team" },
+    { image: Prince, name: "Prince", linkedin: "https://www.linkedin.com/in/prince-sharma-047973253" , role : "Technical Lead" },
+    { image: Akshat, name: "Akshat", linkedin: "https://www.linkedin.com/in/akshat-kumar-40b991261/" ,role : "SheBuilds" },
+    { image: Vibhor, name: "Vibhor", linkedin: "https://linkedin.com/in/themanas95826" ,role : "Geek Room" },
+    { image: Ujjwal, name: "Ujjwal", linkedin: "https://www.linkedin.com/in/ujjwal-agarwal-67b6a0323" ,role : "Sponsorship Team" },
+  
+  
   ];
 
   // Extract just the images for the ParallaxScroll component
