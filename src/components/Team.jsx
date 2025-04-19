@@ -5,7 +5,7 @@ import { ShootingStars } from './ui/shooting-stars.jsx';
 import { StarsBackground } from './ui/stars-background.jsx';
 
 // Import all team member images
-import Bhawna from "../assets/Bhawna.jpeg";
+import Bhawna from "../assets/Bhawna.jpg";
 import Ekta from "../assets/Ekta.jpg";
 import Keshav from "../assets/Keshav.jpeg";
 import Khushi from "../assets/Khushi.jpg";
