@@ -184,7 +184,7 @@ Get down at Knowledge Park II Metro Station.
                     </div>
                     <div>
                       <h3 className="text-lg md:text-xl font-semibold">Bhawna</h3>
-                      <a href="tel:+91 88513 63766" className="text-pink-300 hover:text-pink-200 text-sm md:text-base">+91 99970 72797</a>
+                      <a href="tel:+91 99970 72797" className="text-pink-300 hover:text-pink-200 text-sm md:text-base">+91 99970 72797</a>
                     </div>
                   </div>
                   
@@ -193,8 +193,8 @@ Get down at Knowledge Park II Metro Station.
                       <span className="text-xl">👩‍💻</span>
                     </div>
                     <div>
-                      <h3 className="text-lg md:text-xl font-semibold"> Manik</h3>
-                      <a href="tel:+91 80594 22804" className="text-pink-300 hover:text-pink-200 text-sm md:text-base">+91 99993 09305</a>
+                      <h3 className="text-lg md:text-xl font-semibold"> Ekta</h3>
+                      <a href="tel:+91 99119 37945" className="text-pink-300 hover:text-pink-200 text-sm md:text-base">+91 99119 37945</a>
                     </div>
                   </div>
                 </div>
@@ -205,8 +205,8 @@ Get down at Knowledge Park II Metro Station.
                       <span className="text-xl">👩‍💻</span>
                     </div>
                     <div>
-                      <h3 className="text-lg md:text-xl font-semibold">Shikhar</h3>
-                      <a href="tel:+91 88244 87707" className="text-pink-300 hover:text-pink-200 text-sm md:text-base">+91 95409 78070</a>
+                      <h3 className="text-lg md:text-xl font-semibold">Nikita</h3>
+                      <a href="tel:+91 70659 24258" className="text-pink-300 hover:text-pink-200 text-sm md:text-base">+91 70659 24258</a>
                     </div>
                   </div>
 
@@ -216,7 +216,7 @@ Get down at Knowledge Park II Metro Station.
                     </div>
                     <div>
                       <h3 className="text-lg md:text-xl font-semibold">Teeksha</h3>
-                      <a href="tel:+91 99904 61758" className="text-pink-300 hover:text-pink-200 text-sm md:text-base">+91 95409 78070</a>
+                      <a href="tel:+91 99904 61758" className="text-pink-300 hover:text-pink-200 text-sm md:text-base">+91 99904 61758</a>
                     </div>
                   </div>
                 </div>
