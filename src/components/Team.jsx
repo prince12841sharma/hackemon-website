@@ -50,7 +50,7 @@ const Team = () => {
     { image: Pratyush, name: "Pratyush", linkedin: "https://linktr.ee/pratyush", role: "Discord Administrator" },
     { image: Parth, name: "Parth", linkedin: "https://linktr.ee/parth", role: "Graphic Team" },
     { image: Manik, name: "Manik", linkedin: "https://www.linkedin.com/in/mrmanik", role: "Sponsorship Team" },
-    { image: Umesh, name: "Vani", linkedin: "https://www.linkedin.com/", role: "Social Lead" },
+    // { image: Umesh, name: "Vani", linkedin: "https://www.linkedin.com/", role: "Social Lead" },
     { image: Ujjwal, name: "Ujjwal", linkedin: "https://www.linkedin.com/in/ujjwal-agarwal-67b6a0323", role: "Sponsorship Team" },
     // Add new team members here as needed
   ];
