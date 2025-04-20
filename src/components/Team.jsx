@@ -31,6 +31,8 @@ import Vikshita from "../assets/Vikshita.jpg";
 
 import Shivangi from "../assets/shivangi.jpg";
 import Vani from "../assets/vani.jpg";
+import Ayush from "../assets/Ayush.jpg";
+import Ashwany from "../assets/Ashwany.jpg";
 
 const Team = () => {
   // Define team members as a single array of objects
@@ -57,7 +59,9 @@ const Team = () => {
     { image: Manik, name: "Manik", linkedin: "https://www.linkedin.com/in/mrmanik", role: "Sponsorship Team" },
     // { image: Umesh, name: "Vani", linkedin: "https://www.linkedin.com/", role: "Social Lead" },
     { image: Ujjwal, name: "Ujjwal", linkedin: "https://www.linkedin.com/in/ujjwal-agarwal-67b6a0323", role: "Sponsorship Team" },
-    // Add new team members here as needed
+    { image: Ayush, name: "Ayush", linkedin: "https://www.linkedin.com/in/ayugate/", role: "Photography Head" },
+    { image: Ashwany, name: "Ashwany", linkedin: "https://www.linkedin.com/in/ashwany-kumar-sharma-aab7a9213/", role: "Photography team" },
+
   ];
 
   return (
