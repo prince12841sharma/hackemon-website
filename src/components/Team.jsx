@@ -29,6 +29,9 @@ import Vibhor from "../assets/Vibhor.jpg";
 import Akshat from "../assets/Akshat.jpeg";
 import Vikshita from "../assets/Vikshita.jpg";
 
+import Shivangi from "../assets/shivangi.jpg";
+import Vani from "../assets/vani.jpg";
+
 const Team = () => {
   // Define team members as a single array of objects
   const teamMembers = [
@@ -43,12 +46,14 @@ const Team = () => {
     { image: madhur, name: "Madhur", linkedin: "https://linktr.ee/Madhur_Sapra", role: "Editorial Head" },
     { image: ananya, name: "Ananya", linkedin: "https://www.linkedin.com/in/ananya-agarwal5501", role: "Sponsorship Head" },
     { image: Umesh, name: "Umesh", linkedin: "https://www.linkedin.com/", role: "Media Head" },
+    { image: Vani, name: "Vani", linkedin: "https://www.linkedin.com/in/vani-gupta-952125253", role: "Graphic Head" },
     { image: Utkarsh, name: "Utkarsh", linkedin: "https://www.linkedin.com/in/utkarsh-yadav-079ba327b?", role: "Graphic Head" },
     { image: Ridhim, name: "Ridhim", linkedin: "https://www.linkedin.com/in/ridhim-gupta/", role: "PR/Outreach Head" },
     { image: Keshav, name: "Keshav", linkedin: "https://www.linkedin.com/in/keshav-dayal/", role: "PR/Outreach Head" },
     { image: Prince, name: "Prince", linkedin: "https://www.linkedin.com/in/prince-sharma-047973253", role: "Techical Head" },
     { image: Pratyush, name: "Pratyush", linkedin: "https://linktr.ee/pratyush", role: "Discord Administrator" },
     { image: Parth, name: "Parth", linkedin: "https://linktr.ee/parth", role: "Graphic Team" },
+    { image: Shivangi, name: "Shivangi", linkedin: "https://www.linkedin.com/in/shivangi-singh-10a900242/", role: "Graphic Team" },
     { image: Manik, name: "Manik", linkedin: "https://www.linkedin.com/in/mrmanik", role: "Sponsorship Team" },
     // { image: Umesh, name: "Vani", linkedin: "https://www.linkedin.com/", role: "Social Lead" },
     { image: Ujjwal, name: "Ujjwal", linkedin: "https://www.linkedin.com/in/ujjwal-agarwal-67b6a0323", role: "Sponsorship Team" },
