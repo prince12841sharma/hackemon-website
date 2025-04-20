@@ -10,28 +10,28 @@ export const projects = [
     title: "Call For Mentors",
     description:
       "Empower the next generation of innovators by guiding them through an intense 48-hour hackathon. Share your expertise and help shape groundbreaking AI-driven solutions.",
-    link: "https://www.commudle.com/login?redirect=%2Ffill-form%2F3296",
+    link: "",
     image: "https://placehold.co/600x400/052e16/FFFFFF?text=Call For Mentors",
   },
   {
     title: "Call For Judges",
     description:
       "Join a panel of industry leaders to evaluate cutting-edge game development projects. Your insights will help recognize the most innovative gaming experiences.",
-    link: "https://www.commudle.com/login?redirect=%2Ffill-form%2F3098",
+    link: "",
     image: "https://placehold.co/600x400/1e1b4b/FFFFFF?text=Call For Judges"
   },
   {
     title: "Call For Community Partners",
     description:
       "Collaborate with us to support data science enthusiasts in analyzing and predicting real-world trends. Expand your impact by connecting with a vibrant tech community.",
-    link: "https://www.commudle.com/login?redirect=%2Ffill-form%2F3097",
+    link: "",
     image: "https://placehold.co/600x400/172554/FFFFFF?text=Call+For+Community+Partners"
   },
   {
     title: "Call For Sponsors",
     description:
       "Support a new wave of developers and technologists by sponsoring an inclusive and engaging hackathon. Gain visibility while fostering innovation and creativity.",
-    link: "https://www.commudle.com/login?redirect=%2Ffill-form%2F3098",
+    link: "",
     image: "https://placehold.co/600x400/312e81/FFFFFF?text=Call For Sponsors"
   }
 ];

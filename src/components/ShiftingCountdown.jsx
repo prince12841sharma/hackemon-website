@@ -2,7 +2,7 @@ import { useAnimate } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
 // Target Date: April 24, 2025
-const COUNTDOWN_TO = new Date("2025-04-24");
+const COUNTDOWN_TO = new Date("2025-04-25");
 
 const SECOND = 1000;
 const MINUTE = SECOND * 60;

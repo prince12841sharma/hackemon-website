@@ -11,8 +11,7 @@ export const projects = [
       "We're hosting an online gaming night every day from 6th to 13th April at 10 PM on our Discord server – and you're invited! 🎉 Join us for a whole week of fun games, chill vibes, and great company. Whether you're a pro or just in it for the laughs, there's something for everyone. No pressure, just pure fun. Be there! 🕹",
     link: "https://discord.gg/5MSpmyJK?event=1358442757764677853",
     image: "https://placehold.co/600x400/4c1d95/FFFFFF?text=Game+Night",
-    isLive: true,
-    status: "Upcoming"
+    status: "Ended"
   },
   {
     title: "🤖 Build with AI – Delhi Chapter at Opstree Solutions",
