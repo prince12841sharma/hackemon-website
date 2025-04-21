@@ -113,7 +113,7 @@ const Prizes = () => {
   }, []);
 
   // Prize card component to avoid repeating code
-  const PrizeCard = ({ image, position, prize, color }) => {
+  const PrizeCard = ({ image, position, prize, color , money }) => {
     return (
       <div className="prize-card-container">
         <SpotlightCard 
@@ -129,10 +129,11 @@ const Prizes = () => {
               />
             </div>
             <h1 
-              className='text-xl md:text-4xl text-white mt-4 font-extrabold' 
+              className='text-xl md:text-3xl text-white mt-4' 
               dangerouslySetInnerHTML={{ __html: position }}
             ></h1>
             <p className='text-base md:text-2xl text-stone-300 font-normal'>{prize}</p>
+            <p className='text-lg md:text-4xl text-stone-300 font-extrabold'>{money}</p>
           </div>
         </SpotlightCard>
       </div>
@@ -180,13 +181,15 @@ const Prizes = () => {
               <PrizeCard 
                 image={first} 
                 position="1st Position" 
-                prize="Prize Pool - 25,000" 
+                prize="Prize Worth" 
+                money="50K"
                 color="#96151F"
               />
               <PrizeCard 
                 image={second} 
                 position="2nd Position" 
-                prize="Prize Pool - 10,000" 
+                prize="Prize Worth" 
+                money="45K"
                 color="#21B916"
               />
             </div>
@@ -208,7 +211,8 @@ const Prizes = () => {
               <PrizeCard 
                 image={girls} 
                 position="Best Girls Team" 
-                prize="Prize Pool - 10,000" 
+                prize="Prize Pool" 
+                money="25K"
                 color="#21B916"
               />
               {/* <PrizeCard 

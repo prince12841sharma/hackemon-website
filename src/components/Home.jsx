@@ -12,6 +12,7 @@ import { SmoothScrollHero } from './ParallaxHero'
 import Schedule from './Schedule'
 import Sponsor from './Sponsor'
 import ClickSpark from './ui/ClickSpark'
+import Banner from './Banner'
 
 const Home = () => {
   return (
@@ -22,7 +23,12 @@ const Home = () => {
       <SmoothScrollHero />
           <AboutSection />
           <Theme />
+          <div className="mt-40">
+            <Banner className="md:rotate-8 rotate-6" />
+            <Banner className="opacity-50 md:-rotate-3 -rotate-6" reverse />
+          </div>
         <Prizes/>
+   
           <ShootingStars minSpeed={10} minDelay={4200} starWidth={20} starHeight={2} />
           <StarsBackground starDensity={0.0002} maxTwinkleSpeed={1} />
         <Schedule />
