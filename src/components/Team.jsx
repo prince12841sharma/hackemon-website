@@ -62,8 +62,8 @@ const Team = () => {
     { image: Manik, name: "Manik", linkedin: "https://www.linkedin.com/in/mrmanik", role: "Sponsorship Team" },
     // { image: Umesh, name: "Vani", linkedin: "https://www.linkedin.com/", role: "Social Lead" },
     { image: Ujjwal, name: "Ujjwal", linkedin: "https://www.linkedin.com/in/ujjwal-agarwal-67b6a0323", role: "Sponsorship Team" },
-    { image: Ayush, name: "Ayush", linkedin: "https://www.linkedin.com/in/ayugate/", role: "Media Partner OnnOff" },
-    { image: Ashwany, name: "Ashwany", linkedin: "https://www.linkedin.com/in/ashwany-kumar-sharma-aab7a9213/", role: "Media Partner OnnOff" },
+    { image: Ayush, name: "Ayush", linkedin: "https://www.linkedin.com/in/ayugate/", role: "Media Partner: OnnOff" },
+    { image: Ashwany, name: "Ashwany", linkedin: "https://www.linkedin.com/in/ashwany-kumar-sharma-aab7a9213/", role: "Media Partner: OnnOff" },
 
     { image: Sakshi, name: "Sakshi", linkedin: "https://www.linkedin.com/in/sakshiip", role: "Sponsorship Team" },
     { image: Ragini, name: "Ragini", linkedin: "https://www.linkedin.com/in/ragini-pandey-594564261", role: "Sponsorship Team" },
