@@ -36,6 +36,7 @@ import Ashwany from "../assets/Ashwany.jpg";
 
 import Sakshi from "../assets/Sakshi.png";
 import Ragini from "../assets/Ragini.jpg";
+import { Link } from 'react-router-dom';
 
 const Team = () => {
   // Define team members as a single array of objects
@@ -75,6 +76,8 @@ const Team = () => {
       <ShootingStars minSpeed={10} minDelay={4200} starWidth={20} starHeight={2} />
       <StarsBackground starDensity={0.0002} maxTwinkleSpeed={1} />
       
+
+
       <div className='flex flex-col items-center justify-center relative w-full'>
         <h1 className="text-4xl text-center md:text-8xl bg-clip-text text-transparent bg-gradient-to-b from-amber-400 to-amber-600 font-sans font-bold mb-8">
           Our Team
@@ -83,6 +86,16 @@ const Team = () => {
         <p className="text-white text-sm px-10 md:text-xl max-w-3xl text-center opacity-80">
           Our team is a passionate group of innovators, developers, designers, and leaders dedicated to creating impactful solutions and driving meaningful change.
         </p>
+
+            <div className=' flex gap-4 mt-8 md:text-2xl font-bold text-cyan-300'>
+                <Link className='border-b-4  pb-2' to={"/team"}>
+                    Core Team
+                </Link>
+                <Link className='pb-2' to={"/mentor"}>
+                    Mentors Team
+                </Link>
+            </div>
+
       </div>
 
       <ParallaxScroll teamMembers={teamMembers} />

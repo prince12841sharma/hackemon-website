@@ -8,8 +8,8 @@ export const WobbleCard = ({ children, containerClassName, className }) => {
   const handleMouseMove = (event) => {
     const { clientX, clientY } = event;
     const rect = event.currentTarget.getBoundingClientRect();
-    const x = (clientX - (rect.left + rect.width / 2)) / 40; // Reduced sensitivity for smoother movement
-    const y = (clientY - (rect.top + rect.height / 2)) / 40; // Reduced sensitivity for smoother movement
+    const x = (clientX - (rect.left + rect.width / 2)) / 10; // Reduced sensitivity for smoother movement
+    const y = (clientY - (rect.top + rect.height / 2)) / 10; // Reduced sensitivity for smoother movement
     setMousePosition({ x, y });
   };
 
