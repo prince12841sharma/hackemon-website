@@ -133,7 +133,7 @@ const Prizes = () => {
               dangerouslySetInnerHTML={{ __html: position }}
             ></h1>
             <p className='text-base md:text-2xl text-stone-300 font-normal'>{prize}</p>
-            <p className='text-lg md:text-4xl text-stone-300 font-extrabold'>{money}</p>
+            <p className='text-lg md:text-6xl  text-amber-300 font-extrabold'>{money}</p>
           </div>
         </SpotlightCard>
       </div>

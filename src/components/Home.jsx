@@ -13,6 +13,7 @@ import Schedule from './Schedule'
 import Sponsor from './Sponsor'
 import ClickSpark from './ui/ClickSpark'
 import Banner from './Banner'
+import SponsorTrack from './SponsorTrack'
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <SmoothScrollHero />
           <AboutSection />
           <Theme />
+          <SponsorTrack />
           <div className="mt-40">
             <Banner className="md:rotate-8 rotate-6" />
             <Banner className="opacity-50 md:-rotate-3 -rotate-6" reverse />
