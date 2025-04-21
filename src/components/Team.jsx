@@ -34,13 +34,16 @@ import Vani from "../assets/vani.jpg";
 import Ayush from "../assets/Ayush.jpg";
 import Ashwany from "../assets/Ashwany.jpg";
 
+import Sakshi from "../assets/Sakshi.png";
+import Ragini from "../assets/Ragini.jpg";
+
 const Team = () => {
   // Define team members as a single array of objects
   const teamMembers = [
-    { image: Bhawna, name: "Bhawna", linkedin: "https://www.linkedin.com/in/connectbhawna/", role: "Founder" },
-    { image: Nikitaji, name: "Nikita", linkedin: "https://www.linkedin.com/in/nikita-kumari-58455b284/", role: "Co-Founder" },
-    { image: Ekta, name: "Ekta", linkedin: "https://www.linkedin.com/in/theektaagrawal/", role: "Co-Founder" },
-    { image: Yukti, name: "Yukti", linkedin: "https://www.linkedin.com/in/yukti-thakral-28192b253/", role: "Co-Founder" },
+    { image: Bhawna, name: "Bhawna", linkedin: "https://www.linkedin.com/in/connectbhawna/", role: "Organizer" },
+    { image: Nikitaji, name: "Nikita", linkedin: "https://www.linkedin.com/in/nikita-kumari-58455b284/", role: "Organizer" },
+    { image: Ekta, name: "Ekta", linkedin: "https://www.linkedin.com/in/theektaagrawal/", role: "Organizer" },
+    { image: Yukti, name: "Yukti", linkedin: "https://www.linkedin.com/in/yukti-thakral-28192b253/", role: "Organizer" },
     { image: Vikshita, name: "Vikshita", linkedin: "https://www.linkedin.com/in/vikshita", role: "Voice of the Community" },
     { image: Teeksha, name: "Teeksha", linkedin: "https://www.linkedin.com/in/teeksha-harish-5895a0234/", role: "Operations/ Logistic Head" },
     { image: Akshat, name: "Akshat", linkedin: "https://www.linkedin.com/in/akshat-kumar-40b991261/", role: "Operations/ Logistic Head" },
@@ -59,8 +62,11 @@ const Team = () => {
     { image: Manik, name: "Manik", linkedin: "https://www.linkedin.com/in/mrmanik", role: "Sponsorship Team" },
     // { image: Umesh, name: "Vani", linkedin: "https://www.linkedin.com/", role: "Social Lead" },
     { image: Ujjwal, name: "Ujjwal", linkedin: "https://www.linkedin.com/in/ujjwal-agarwal-67b6a0323", role: "Sponsorship Team" },
-    { image: Ayush, name: "Ayush", linkedin: "https://www.linkedin.com/in/ayugate/", role: "Photography Head" },
-    { image: Ashwany, name: "Ashwany", linkedin: "https://www.linkedin.com/in/ashwany-kumar-sharma-aab7a9213/", role: "Photography team" },
+    { image: Ayush, name: "Ayush", linkedin: "https://www.linkedin.com/in/ayugate/", role: "Media Partner OnnOff" },
+    { image: Ashwany, name: "Ashwany", linkedin: "https://www.linkedin.com/in/ashwany-kumar-sharma-aab7a9213/", role: "Media Partner OnnOff" },
+
+    { image: Sakshi, name: "Sakshi", linkedin: "https://www.linkedin.com/in/sakshiip", role: "Sponsorship Team" },
+    { image: Ragini, name: "Ragini", linkedin: "https://www.linkedin.com/in/ragini-pandey-594564261", role: "Sponsorship Team" },
 
   ];
 

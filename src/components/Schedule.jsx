@@ -15,6 +15,28 @@ const Schedule = () => {
     initial={{ y: 48, opacity: 0 }}
     whileInView={{ y: 0, opacity: 1 }}
     transition={{ ease: "easeInOut", duration: 0.75 }}
+    className="mb-10 mt-20 flex justify-between  text-xl md:text-2xl  font-black uppercase text-stone-300"
+  >
+    <span>Registerations close and First PPT Submission</span>
+
+     <span>23rd 11:59 PM</span>
+  </motion.h1>
+
+  <motion.h1
+    initial={{ y: 48, opacity: 0 }}
+    whileInView={{ y: 0, opacity: 1 }}
+    transition={{ ease: "easeInOut", duration: 0.75 }}
+    className="mb-10 mt-20 text-xl flex justify-between md:text-2xl font-black uppercase text-stone-300"
+  >
+    <span> Shortlisted Teams for Online round Announced</span>
+    
+     <span>24th 2:00PM     </span>
+  </motion.h1>
+
+  <motion.h1
+    initial={{ y: 48, opacity: 0 }}
+    whileInView={{ y: 0, opacity: 1 }}
+    transition={{ ease: "easeInOut", duration: 0.75 }}
     className="mb-10 mt-20 text-xl md:text-4xl font-black uppercase text-yellow-300"
   >
     Day 1 (25th April) – Online Hackathon
@@ -22,7 +44,7 @@ const Schedule = () => {
 
   <ScheduleItem title="Opening Ceremony (Introduction, Rules, Judging Criteria)" date="3:30 PM - 4:00 PM" location="Online" />
   <ScheduleItem title="Expert Talks & Sponsor Presentations" date="4:00 PM – 5:00 PM" location="Online" />
-  <ScheduleItem title="First Mentoring Round" date="6:00 PM – 9:00 PM" location="Online" />
+  <ScheduleItem title="Mentoring Round 1" date="6:00 PM – 9:00 PM" location="Online" />
   <ScheduleItem title="Icebreaker & Networking" date="10:00 PM – 11:00 PM" location="Online" />
   
 
@@ -34,9 +56,10 @@ const Schedule = () => {
   >
     Day 2 (26th April) – Online Hackathon
   </motion.h1>
-  <ScheduleItem title="Idea Submission (PPT, Video, Prototype) Deadline" date="Until 8:00 AM" location="Online" /> 
-  <ScheduleItem title="Top 20 Teams Announcement" date="10:00 AM – 11:00 AM" location="Online" />
-  <ScheduleItem title="Doubt-Clearing Session for Top 20 Teams" date="12:00 PM – 1:00 PM" location="Online (Meet)" />
+  <ScheduleItem title="Mentoring Round 2" date="8:00 AM - 10:00 AM" location="Online" /> 
+  <ScheduleItem title="Final PPT and Project Submission" date="Till 10:30 AM" location="Online" /> 
+  <ScheduleItem title="Top 20 Teams Announcement" date="12:00 AM – 1:00 PM" location="Online" />
+  <ScheduleItem title="Doubt-Clearing Session for Top 20 Teams" date="2:00 PM – 3:00 PM" location="Online (Meet)" />
 
   <motion.h1
     initial={{ y: 48, opacity: 0 }}
