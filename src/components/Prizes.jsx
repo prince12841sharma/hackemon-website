@@ -8,6 +8,9 @@ import first from "../assets/prizes/first.jpg";
 import second from "../assets/prizes/second.jpg";
 import girls from "../assets/prizes/allgirls.jpg";
 
+import social from "../assets/prizes/social.jpg";
+import inovation from "../assets/prizes/inovation.jpg";
+
 
 
 // New animation styles with popup effect
@@ -209,8 +212,22 @@ const Prizes = () => {
 
             <div className='flex flex-col md:flex-row  gap-8 px-4 md:px-8 py-4 justify-center'>
               <PrizeCard 
+                image={social} 
+                position="Social Impact Award" 
+                prize="Prize Pool" 
+                money="25K"
+                color="#21B916"
+              />
+              <PrizeCard 
                 image={girls} 
                 position="Best Girls Team" 
+                prize="Prize Pool" 
+                money="25K"
+                color="#21B916"
+              />
+              <PrizeCard 
+                image={inovation} 
+                position="Innovation Award" 
                 prize="Prize Pool" 
                 money="25K"
                 color="#21B916"

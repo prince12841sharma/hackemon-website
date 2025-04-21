@@ -7,6 +7,8 @@ import char from "../assets/gif/char.gif";
 import geekroom from "../assets/sponsor/geekroom.png"
 import gcet from "../assets/sponsor/gcet.jpg"
 
+import hoverrobotix from "../assets/hoverrobotix.png"
+
 const Sponsor = () => {
   // Sponsor data with name, image URL and website URL
   const sponsors = [
@@ -15,6 +17,12 @@ const Sponsor = () => {
       imageUrl: geekroom,
       websiteUrl: "https://www.geekroom.in/"
     },
+    {
+      name: "hoverRobotix",
+      imageUrl: hoverrobotix,
+      websiteUrl: "https://hoverrobotix.com/"
+    },
+
     {
       name: "Galgotias College of Engineering & Technology",
       imageUrl: gcet,
@@ -49,7 +57,7 @@ const Sponsor = () => {
           }}
         ></div>
         <div className="flex flex-wrap justify-center gap-8">
-          {sponsors.slice(0, 1).map((sponsor, index) => (
+          {sponsors.slice(0, 2).map((sponsor, index) => (
             <SponsorCard 
               key={index}
               sponsor={sponsor} 
@@ -88,7 +96,7 @@ const Sponsor = () => {
         ></div>
 
         <div className="flex flex-wrap justify-center gap-8">
-          {sponsors.slice(1, 2).map((sponsor, index) => (
+          {sponsors.slice(2, 3).map((sponsor, index) => (
             <SponsorCard 
               key={index}
               sponsor={sponsor} 
