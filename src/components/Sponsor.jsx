@@ -7,6 +7,7 @@ import char from "../assets/gif/char.gif";
 import geekroom from "../assets/sponsor/geekroom.png"
 import gcet from "../assets/sponsor/gcet.jpg"
 import Hiked from "../assets/sponsor/Hiked.png"
+import wooven from "../assets/sponsor/wooven.jpg"
 
 
 import hoverrobotix from "../assets/hoverrobotix.png"
@@ -28,6 +29,11 @@ const Sponsor = () => {
       name: "Hiked",
       imageUrl: Hiked,
       websiteUrl: "https://hiked.in/"
+    },
+    {
+      name: "Wooven",
+      imageUrl: wooven,
+      websiteUrl: ""
     },
 
     {
@@ -64,7 +70,7 @@ const Sponsor = () => {
           }}
         ></div>
         <div className="flex flex-wrap justify-center gap-8">
-          {sponsors.slice(0, 3).map((sponsor, index) => (
+          {sponsors.slice(0, 4).map((sponsor, index) => (
             <SponsorCard 
               key={index}
               sponsor={sponsor} 
@@ -103,7 +109,7 @@ const Sponsor = () => {
         ></div>
 
         <div className="flex flex-wrap justify-center gap-8">
-          {sponsors.slice(3, 4).map((sponsor, index) => (
+          {sponsors.slice(4, 5).map((sponsor, index) => (
             <SponsorCard 
               key={index}
               sponsor={sponsor} 

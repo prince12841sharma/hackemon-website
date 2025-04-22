@@ -40,10 +40,10 @@ const Mentors = () => {
             </p>
 
             <div className=' flex mt-8 md:text-2xl font-bold text-stone-300 '>
-                <Link className='pb-2 pr-4 border-b-4 pl-2' to={"/team"}>
+                <Link className='pb-2  border-b-4 pl-2' to={"/team"}>
                     Core Team
                 </Link>
-                <Link className='border-b-4 border-purple-600 pb-2 pr-2' to={"/mentor"}>
+                <Link className='border-b-4 pl-4 border-purple-600 pb-2 pr-2' to={"/mentor"}>
                     Mentors Team
                 </Link>
             </div>
