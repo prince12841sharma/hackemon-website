@@ -3,11 +3,15 @@ import "../styles/prizes.css";
 import SpotlightCard from '../components/ui/SpotlightCard.jsx';
 
 // images
+
 import first from "../assets/prizes/first.jpg";
 import second from "../assets/prizes/second.jpg";
 import girls from "../assets/prizes/allgirls.jpg";
+
 import social from "../assets/prizes/social.jpg";
 import inovation from "../assets/prizes/inovation.jpg";
+
+
 
 // New animation styles with popup effect
 const animationStyles = `
@@ -61,25 +65,12 @@ const animationStyles = `
     transform: translateY(-10px) scale(1.02);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
   }
-
-  /* Responsive fixes for prize sections */
-  .prize-section {
-    width: 100%;
-    max-width: 90vw;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-
-  @media (max-width: 768px) {
-    .prize-section {
-      max-width: calc(100% - 2rem);
-    }
-  }
 `;
 
 const Prizes = () => {
   // Create refs for each prize section
   const championshipRef = useRef(null);
+  const trackRef = useRef(null);
   const specialRef = useRef(null);
 
   useEffect(() => {
@@ -110,8 +101,9 @@ const Prizes = () => {
 
     const observer = new IntersectionObserver(observerCallback, observerOptions);
     
-    // Observe all prize sections
+    // Observe all three prize sections
     if (championshipRef.current) observer.observe(championshipRef.current);
+    if (trackRef.current) observer.observe(trackRef.current);
     if (specialRef.current) observer.observe(specialRef.current);
 
     // Cleanup
@@ -124,9 +116,9 @@ const Prizes = () => {
   }, []);
 
   // Prize card component to avoid repeating code
-  const PrizeCard = ({ image, position, prize, color, money }) => {
+  const PrizeCard = ({ image, position, prize, color , money }) => {
     return (
-      <div className="prize-card-container w-full md:w-auto">
+      <div className="prize-card-container">
         <SpotlightCard 
           className="custom-spotlight-card h-[14rem] md:h-[28rem] flex flex-col items-center justify-center text-center" 
           spotlightColor={color}
@@ -134,7 +126,7 @@ const Prizes = () => {
           <div className='relative flex flex-col items-center justify-center w-full'>
             <div className="h-[7rem] w-[9rem] md:h-[15rem] md:w-[15rem] flex items-center justify-center">
               <img 
-                className='w-full h-full object-contain' 
+                className='w-[15rem] h-[15rem] object-contain' 
                 src={image} 
                 alt={`${position} prize`} 
               />
@@ -144,22 +136,22 @@ const Prizes = () => {
               dangerouslySetInnerHTML={{ __html: position }}
             ></h1>
             <p className='text-base md:text-2xl text-stone-300 font-normal'>{prize}</p>
-            <p className='text-lg md:text-6xl text-amber-300 font-extrabold'>{money}</p>
+            <p className='text-lg md:text-6xl  text-amber-300 font-extrabold'>{money}</p>
           </div>
         </SpotlightCard>
       </div>
     );
   };
 
-  // Common styles for award sections
+  // Common styles for award sections to ensure consistent width in mobile view
   const awardSectionStyle = {
     borderRadius: "25px",
     border: "2px solid rgb(133, 179, 252)",
     boxShadow: "0px 0px 10px 10px rgba(0, 238, 255, 0.09)",
     transition: "background 0.5s ease-in-out, box-shadow 0.3s ease-in-out",
-    width: "100%",
-    overflow: "hidden"
+    maxWidth: "calc(100% - 2rem)"
   };
+  
 
   const headingStyle = {
     background: "linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7))",
@@ -171,8 +163,8 @@ const Prizes = () => {
   };
 
   return (
-    <div id='prizes' className='w-full pt-16 pb-4 md:pt-24 px-4 md:px-8 lg:px-16'>
-      <div className="w-full max-w-7xl mx-auto">
+    <div id='prizes' className='pt-16 pb-4 md:pt-24 md:px-32'>
+      <div>
         <h1 className="text-4xl text-center md:text-8xl bg-clip-text text-transparent bg-gradient-to-b from-amber-400 to-amber-600 font-sans font-bold mb-8">
           Prizes Pool
         </h1>
@@ -188,7 +180,7 @@ const Prizes = () => {
               Championship Awards
             </h1>
 
-            <div className='flex flex-col md:flex-row   md:px-8 py-4 justify-center'>
+            <div className='flex flex-col md:flex-row gap-8 px-4 md:px-8 py-4 justify-center'>
               <PrizeCard 
                 image={first} 
                 position="1st Position" 
@@ -207,22 +199,21 @@ const Prizes = () => {
           </div>
         </div>
 
-
         {/* Special Awards */}
-        <div className='flex flex-col items-center justify-center w-full text-center mt-10'>
+        <div className='flex flex-col items-center justify-center w-full mt-10 md:mt-14'>
           <div 
             ref={specialRef} 
-            className='prize-section'
+            className='mx-4 text-center w-full md:w-auto max-w-6xl' 
             style={awardSectionStyle}
           >
             <h1 className="z-20 my-8 text-center text-4xl font-bold text-white" style={headingStyle}>
               Special Awards
             </h1>
 
-            <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 px-4 md:px-8 py-4'>
+            <div className='flex flex-col md:flex-row  gap-8 px-4 md:px-8 py-4 justify-center'>
               <PrizeCard 
                 image={social} 
-                position="Social Impact" 
+                position="Social Impact " 
                 prize="Prize Pool" 
                 money="25K"
                 color="#21B916"
@@ -241,6 +232,12 @@ const Prizes = () => {
                 money="25K"
                 color="#21B916"
               />
+              {/* <PrizeCard 
+                image={offline3} 
+                position="3rd Position" 
+                prize="10,000" 
+                color="#2275FA"
+              /> */}
             </div>
           </div>
         </div>
