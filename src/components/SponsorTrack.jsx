@@ -2,6 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import VariableProximity from './ui/VariableProximity.jsx';
 import hoverrobotix from "../assets/hoverrobotix.png";
 
+
 const SponsorTrack = () => {
   const containerRef = useRef(null);
   const sectionRef = useRef(null);
@@ -96,6 +97,7 @@ const SponsorTrack = () => {
               label="Design and develop a mobile application that simulates integration with personal electric vehicles or delivery robots, enabling performance monitoring, route planning, safety features, and eco-friendly usage insights — all without the need for physical hardware"
               style={{
                 fontSize: '1.4rem',
+                color:"white",
                 lineHeight: '1.6',
                 fontFamily: '"Roboto Flex", sans-serif',
                 transition: 'all 0.1s ease-out',

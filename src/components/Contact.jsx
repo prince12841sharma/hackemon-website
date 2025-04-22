@@ -187,14 +187,13 @@ Get down at Knowledge Park II Metro Station.
                       <a href="tel:+91 99970 72797" className="text-pink-300 hover:text-pink-200 text-sm md:text-base">+91 99970 72797</a>
                     </div>
                   </div>
-                  
-                  <div className="flex items-center mb-4">
+                 <div className="flex items-center mb-4">
                     <div className="w-10 h-10 rounded-full bg-pink-500 flex items-center justify-center mr-3 flex-shrink-0">
                       <span className="text-xl">👩‍💻</span>
                     </div>
                     <div>
-                      <h3 className="text-lg md:text-xl font-semibold"> Ekta</h3>
-                      <a href="tel:+91 99119 37945" className="text-pink-300 hover:text-pink-200 text-sm md:text-base">+91 99119 37945</a>
+                      <h3 className="text-lg md:text-xl font-semibold">Teeksha</h3>
+                      <a href="tel:+91 99904 61758" className="text-pink-300 hover:text-pink-200 text-sm md:text-base">+91 99904 61758</a>
                     </div>
                   </div>
                 </div>
@@ -210,15 +209,6 @@ Get down at Knowledge Park II Metro Station.
                     </div>
                   </div>
 
-                  <div className="flex items-center mb-4">
-                    <div className="w-10 h-10 rounded-full bg-pink-500 flex items-center justify-center mr-3 flex-shrink-0">
-                      <span className="text-xl">👩‍💻</span>
-                    </div>
-                    <div>
-                      <h3 className="text-lg md:text-xl font-semibold">Teeksha</h3>
-                      <a href="tel:+91 99904 61758" className="text-pink-300 hover:text-pink-200 text-sm md:text-base">+91 99904 61758</a>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

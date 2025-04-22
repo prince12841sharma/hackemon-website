@@ -156,11 +156,6 @@ const Footer = () => {
                   </a>
                 </p>
                 <p className="text-sm md:text-base">
-                  <a href="http://wa.me/+919911937945" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:underline">
-                    +91 99119 37945 - Ekta
-                  </a>
-                </p>
-                <p className="text-sm md:text-base">
                   <a href="http://wa.me/+918824487707" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:underline">
                   +91 88244 87707 - Shikhar
                   </a>

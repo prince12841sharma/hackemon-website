@@ -35,7 +35,7 @@ export const ParallaxScroll = ({ teamMembers, className }) => {
           borderRadius: "20px"
         }} 
         key={`${member.name}-${columnIdx}`}
-        className="relative group overflow-hidden border-4 border-stone-400/80 mb-6 sm:mb-0"
+        className="relative group overflow-hidden border-4 border-purple-100/10 mb-6 sm:mb-0"
       >
         <img 
           src={member.image} 

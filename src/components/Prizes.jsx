@@ -213,7 +213,7 @@ const Prizes = () => {
             <div className='flex flex-col md:flex-row  gap-8 px-4 md:px-8 py-4 justify-center'>
               <PrizeCard 
                 image={social} 
-                position="Social Impact Award" 
+                position="Social Impact " 
                 prize="Prize Pool" 
                 money="25K"
                 color="#21B916"
@@ -227,7 +227,7 @@ const Prizes = () => {
               />
               <PrizeCard 
                 image={inovation} 
-                position="Innovation Award" 
+                position="New Innovation" 
                 prize="Prize Pool" 
                 money="25K"
                 color="#21B916"
