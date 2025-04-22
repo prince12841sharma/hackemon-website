@@ -90,7 +90,11 @@ const Footer = () => {
               { src: xxxlogo, alt: "Other", name: "PokéTweet", href: "https://x.com/shebuildshack?t=wPGe1_FzF-be4N8OVPM_Kw&s=09" },
             ].map((icon, index) => (
               <div key={index} className="flex flex-col items-center group">
-                <div className="bg-purple-500/50 rounded-lg p-2 hover:bg-purple-700/50 transition duration-100">
+                <div 
+                style={{
+                  borderRadius:"15px",
+                }}
+                className="bg-pink-600/90 rounded-lg p-2 hover:bg-pink-600/50 transition duration-100">
                   <a href={icon.href}> 
                     <img
                       src={icon.src}

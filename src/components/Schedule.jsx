@@ -15,22 +15,22 @@ const Schedule = () => {
     initial={{ y: 48, opacity: 0 }}
     whileInView={{ y: 0, opacity: 1 }}
     transition={{ ease: "easeInOut", duration: 0.75 }}
-    className="mb-10 mt-20 flex justify-between  text-xl md:text-2xl  font-black uppercase text-stone-300"
+    className="mb-10 bg-white/90 py-4 px-2  mt-20 flex justify-between  text-xl md:text-2xl  font-black uppercase text-stone-800"
   >
-    <span>Registerations close and First PPT Submission</span>
+    <span className="">Registerations close and First PPT Submission</span>
 
-     <span>23rd 11:59 PM</span>
+     <span className="text-purple-500">23rd 11:59 PM</span>
   </motion.h1>
 
   <motion.h1
     initial={{ y: 48, opacity: 0 }}
     whileInView={{ y: 0, opacity: 1 }}
     transition={{ ease: "easeInOut", duration: 0.75 }}
-    className="mb-10 mt-20 text-xl flex justify-between md:text-2xl font-black uppercase text-stone-300"
+    className="mb-10 bg-white/90 py-4 px-2 mt-10 text-xl flex justify-between md:text-2xl font-black uppercase text-stone-800"
   >
     <span> Shortlisted Teams for Online round Announced</span>
     
-     <span>24th 2:00PM     </span>
+     <span className="text-purple-500">24th 2:00PM     </span>
   </motion.h1>
 
   <motion.h1
