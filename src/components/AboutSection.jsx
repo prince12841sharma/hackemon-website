@@ -39,7 +39,7 @@ const AboutSection = () => {
     >
 
       {/* Main content container - Added responsive padding */}
-      <div className='absolute top-28 md:pl-20 pl-4 w-full md:mt-14 '>
+      <div className='absolute top-28 md:pl-20 pl-4 w-full mt-20 md:mt-14 '>
         <div className='h-full flex flex-col'>
           <div>
             {/* <h1 
