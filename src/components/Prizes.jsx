@@ -145,9 +145,9 @@ const Prizes = () => {
 
   // Common styles for award sections to ensure consistent width in mobile view
   const awardSectionStyle = {
-    borderRadius: "25px",
-    border: "2px solid rgb(133, 179, 252)",
-    boxShadow: "0px 0px 10px 10px rgba(0, 238, 255, 0.09)",
+    // borderRadius: "25px",
+    // border: "2px solid rgb(133, 179, 252)",
+    // boxShadow: "0px 0px 10px 10px rgba(0, 238, 255, 0.09)",
     transition: "background 0.5s ease-in-out, box-shadow 0.3s ease-in-out",
     maxWidth: "calc(100% - 2rem)"
   };
@@ -176,7 +176,7 @@ const Prizes = () => {
             className='mx-4 text-center max-w-6xl' 
             style={awardSectionStyle}
           >
-            <h1 className="z-20  my-8 text-center text-4xl font-bold text-white" style={headingStyle}>
+            <h1 className="z-20 border-b-4  my-8 text-center text-4xl font-bold text-white" style={headingStyle}>
               Championship Awards
             </h1>
 
@@ -206,7 +206,7 @@ const Prizes = () => {
             className='mx-4 text-center w-full md:w-auto max-w-6xl' 
             style={awardSectionStyle}
           >
-            <h1 className="z-20 my-8 text-center text-4xl font-bold text-white" style={headingStyle}>
+            <h1 className="z-20 border-b-4  my-8 text-center text-4xl font-bold text-white" style={headingStyle}>
               Special Awards
             </h1>
 
