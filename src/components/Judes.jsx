@@ -40,7 +40,7 @@ const Judes = () => {
                 <Link className='border-b-4 pl-4  pb-2 pr-2' to={"/mentor"}>
                     Mentors Team
                 </Link>
-                <Link className='border-b-4 pl-4 border-purple-600 pb-2 pr-2' to={"/mentor"}>
+                <Link className='border-b-4 pl-4 border-pink-600 pb-2 pr-2' to={"/mentor"}>
                     Judges Team
                 </Link>
             </div>
