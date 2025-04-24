@@ -13,6 +13,7 @@ import Loading from "./components/Loading";
 import Contact from "./components/Contact";
 import { SmoothScrollHero } from "./components/ParallaxHero";
 import Mentors from "./components/Mentors";
+import Judes from "./components/Judes";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -34,6 +35,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/team" element={<Team />} />
               <Route path="/mentor" element={<Mentors />} />
+              <Route path="/judge" element={<Judes />} />
               <Route path="/events" element={<Events />} />
               <Route path="/joinus" element={<Joinus />} />
               <Route path="/faq" element={<Faq />} />

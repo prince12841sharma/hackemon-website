@@ -39,12 +39,15 @@ const Mentors = () => {
               Our team is a passionate group of innovators, developers, designers, and leaders dedicated to creating impactful solutions and driving meaningful change.
             </p>
 
-            <div className=' flex mt-8 md:text-2xl font-bold text-stone-300 '>
+            <div className=' flex mt-8  md:text-2xl font-bold text-stone-300 '>
                 <Link className='pb-2  border-b-4 pl-2' to={"/team"}>
                     Core Team
                 </Link>
                 <Link className='border-b-4 pl-4 border-purple-600 pb-2 pr-2' to={"/mentor"}>
                     Mentors Team
+                </Link>
+                <Link className='border-b-4 pl-4  pb-2 pr-2' to={"/judge"}>
+                    Judges Team
                 </Link>
             </div>
           </div>
