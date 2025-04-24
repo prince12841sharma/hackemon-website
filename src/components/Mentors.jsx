@@ -16,13 +16,13 @@ import { Link } from 'react-router-dom';
 const Mentors = () => {
 
       const teamMembers = [
+        { image: Ayan, name: "Ayan Khan", linkedin: "https://in.linkedin.com/in/ayankhan3105", role: " Cloud DevOps Engineer at RTDS" },
         { image: TUSHIKA, name: "Tushika", linkedin: "https://www.linkedin.com/in/tushika-rawat?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", role: "Founder 15Forteen | Data Analyst@PW" },
-        { image: Ayan, name: "Ayan", linkedin: "https://in.linkedin.com/in/ayankhan3105", role: " Cloud DevOps Engineer at RTDS" },
-        { image: Yash, name: "Yash", linkedin: "http://linkedin.com/in/chatrath-yash", role: "Data analyst/scientist at Sony" },
-        { image: Krishna, name: "Krishna", linkedin: "https://www.linkedin.com/in/krishnarana672/", role: "Android Engineer | Tech Enthusiast | Speaker " },
-        { image: Karan, name: "Karan", linkedin: "https://www.linkedin.com/in/karan-v-270102", role: "SDE at NEC Corporation India Pvt Ltd" },
-        { image: Harshavardhan, name: "Harshavardhan", linkedin: "https://www.linkedin.com/in/harshavardhan-bajoria", role: "Associate Product Manager @Unstop | GitHub Campus Expert | Azure Developer Lead" },
-        { image: Krish, name: "Krish", linkedin: "https://www.linkedin.com/in/krishkhattar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app", role: "Software Developer Trainee @Antino Labs" },
+        { image: Yash, name: "Yash Chatrath ", linkedin: "http://linkedin.com/in/chatrath-yash", role: "Data analyst/scientist at Sony" },
+        { image: Krishna, name: "Krishna Rana", linkedin: "https://www.linkedin.com/in/krishnarana672/", role: "Android Engineer | Tech Enthusiast | Speaker " },
+        { image: Karan, name: "Karan Vaswani", linkedin: "https://www.linkedin.com/in/karan-v-270102", role: "SDE at NEC Corporation India Pvt Ltd" },
+        { image: Harshavardhan, name: "Harshavardhan Bajoria ", linkedin: "https://www.linkedin.com/in/harshavardhan-bajoria", role: "Associate Product Manager @Unstop | GitHub Campus Expert | Azure Developer Lead" },
+        { image: Krish, name: "Krish Khattar", linkedin: "https://www.linkedin.com/in/krishkhattar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app", role: "Software Developer Trainee @Antino Labs" },
       ];
       
   return (
@@ -44,10 +44,10 @@ const Mentors = () => {
                     Core Team
                 </Link>
                 <Link className='border-b-4 pl-4 border-pink-600 pb-2 pr-2' to={"/mentor"}>
-                    Mentors Team
+                    Mentors
                 </Link>
                 <Link className='border-b-4 pl-4  pb-2 pr-2' to={"/judge"}>
-                    Judges Team
+                    Judges
                 </Link>
             </div>
           </div>

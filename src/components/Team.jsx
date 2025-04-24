@@ -92,10 +92,10 @@ const Team = () => {
                     Core Team
                 </Link>
                 <Link className=' border-b-4 pb-2 pr-2' to={"/mentor"}>
-                    Mentors Team
+                    Mentors
                 </Link>
                  <Link className='border-b-4 pl-4  pb-2 pr-2' to={"/judge"}>
-                     Judges Team
+                     Judges
                  </Link>               
             </div>
 

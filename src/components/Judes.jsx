@@ -13,9 +13,9 @@ import { Link } from 'react-router-dom';
 const Judes = () => {
 
   const teamMembers = [
-        { image: Parth, name: "Parth", linkedin: "https://www.linkedin.com/in/kumarparth28/", role: "Cloud Infrastructure Analyst || @DXC" },
-        { image: Dolly, name: "Dolly", linkedin: "https://www.linkedin.com/in/dollybhasin/", role: "Founder @ SmartEdge" },
-        { image: Shivangi, name: "Shivangi", linkedin: "https://www.linkedin.com/in/shivi-singh/", role: "UI/UX Engineer @ Hyathi Technologies" },
+    { image: Dolly, name: "Dolly Bhasin", linkedin: "https://www.linkedin.com/in/dollybhasin/", role: "Founder @ SmartEdge" },
+        { image: Parth, name: "Kumar Parth", linkedin: "https://www.linkedin.com/in/kumarparth28/", role: "Cloud Infrastructure Analyst || @DXC" },
+        { image: Shivangi, name: "Shivangi Singh", linkedin: "https://www.linkedin.com/in/shivi-singh/", role: "UI/UX Engineer @ Hyathi Technologies" },
   ];
   
 
@@ -38,10 +38,10 @@ const Judes = () => {
                     Core Team
                 </Link>
                 <Link className='border-b-4 pl-4  pb-2 pr-2' to={"/mentor"}>
-                    Mentors Team
+                    Mentors
                 </Link>
                 <Link className='border-b-4 pl-4 border-pink-600 pb-2 pr-2' to={"/mentor"}>
-                    Judges Team
+                    Judges
                 </Link>
             </div>
           </div>
