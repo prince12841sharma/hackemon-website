@@ -14,6 +14,9 @@ import hoverrobotix from "../assets/hoverrobotix.png"
 import unstop from "../assets/sponsor/unstop.png"
 import redbull from "../assets/sponsor/redbull.jpg"
 
+import bspark from "../assets/sponsor/bspark.png"
+import storia from "../assets/sponsor/storia.png"
+
 const Sponsor = () => {
   // Sponsor data with name, image URL and website URL
   const sponsors = [
@@ -46,6 +49,16 @@ const Sponsor = () => {
       name: "Red Bull",
       imageUrl: redbull,
       websiteUrl: "https://www.redbull.com/in-en/cartoons?utm_source=Google+Ads&utm_medium=Paid_Search&utm_campaign=15338_V3_P_2025_IND_BRAND_TOTSEM&utm_term=PG_brandexact&utm_content=ag_core_new&rbcid=20910224283&utm_source=Adwords&utm_medium=g&utm_campaign=20910224283&utm_content=704591851119&utm_source=paid_search&utm_medium=google&utm_campaign=11108_V3_P_2024_IND_BRAND_TOTSEM&utm_term=PG_BrandExact&utm_content=ag_sugarfree&gad_source=1&gbraid=0AAAAADHM27huvote3Dzb2cibGNjsjxImR&gclid=CjwKCAjwn6LABhBSEiwAsNJrjsBztJnacrRGP0Gps-Jx_zdVsalzqH4OhZpUXQJO_LuLnsRz8FkWYxoCBhMQAvD_BwE"
+    },
+    {
+      name: "bspark",
+      imageUrl: bspark,
+      websiteUrl: "https://www.b-spark.org/"
+    },
+    {
+      name: "Storia",
+      imageUrl: storia,
+      websiteUrl: "https://shop.storiafoods.com/"
     },
 
     {
@@ -82,7 +95,7 @@ const Sponsor = () => {
           }}
         ></div>
         <div className="flex flex-wrap justify-center gap-8">
-          {sponsors.slice(0, 6).map((sponsor, index) => (
+          {sponsors.slice(0, 8).map((sponsor, index) => (
             <SponsorCard 
               key={index}
               sponsor={sponsor} 
@@ -121,7 +134,7 @@ const Sponsor = () => {
         ></div>
 
         <div className="flex flex-wrap justify-center gap-8">
-          {sponsors.slice(6, 7).map((sponsor, index) => (
+          {sponsors.slice(8, 9).map((sponsor, index) => (
             <SponsorCard 
               key={index}
               sponsor={sponsor} 
