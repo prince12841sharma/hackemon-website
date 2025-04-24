@@ -1,6 +1,4 @@
 
-
-
 ---
 
 # 🎮 Hackémon - Official Website ⚡  
