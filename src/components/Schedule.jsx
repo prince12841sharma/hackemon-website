@@ -19,7 +19,7 @@ const Schedule = () => {
   >
     <span className="">Registerations close and First PPT Submission</span>
 
-     <span className="text-purple-500">23rd 11:59 PM</span>
+     <span className="text-purple-500 text-lg md:text-2xl">23rd 11:59 PM</span>
   </motion.h1>
 
   <motion.h1
@@ -30,7 +30,7 @@ const Schedule = () => {
   >
     <span> Shortlisted Teams for Online round Announced</span>
     
-     <span className="text-purple-500">24th 2:00PM     </span>
+     <span className="text-purple-500 ">24th 2:00PM     </span>
   </motion.h1>
 
   <motion.h1

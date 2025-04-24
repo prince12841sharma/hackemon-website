@@ -123,7 +123,7 @@ const Prizes = () => {
           className="custom-spotlight-card h-[14rem] md:h-[28rem] flex flex-col items-center justify-center text-center" 
           spotlightColor={color}
         >
-          <div className='relative flex flex-col items-center justify-center w-full'>
+          <div className='relative  flex flex-col items-center justify-center w-full'>
             <div className="h-[7rem] w-[9rem] md:h-[15rem] md:w-[15rem] flex items-center justify-center">
               <img 
                 className='w-[15rem] h-[15rem] object-contain' 
@@ -136,7 +136,7 @@ const Prizes = () => {
               dangerouslySetInnerHTML={{ __html: position }}
             ></h1>
             <p className='text-base md:text-2xl text-stone-300 font-normal'>{prize}</p>
-            <p className='text-lg md:text-6xl  text-amber-300 font-extrabold'>{money}</p>
+            <p className='text-4xl md:text-6xl  text-amber-300 font-extrabold'>{money}</p>
           </div>
         </SpotlightCard>
       </div>

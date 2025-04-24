@@ -12,9 +12,6 @@ html, body {
 }
 
 
-
-
-
 /* Scrollbar styling */
 ::-webkit-scrollbar {
     width: 6px;               /* Width of the vertical scrollbar */
