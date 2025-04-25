@@ -151,7 +151,7 @@ const Herosection = () => {
           initial="hidden"
           animate="visible"
           variants={timerdiv}
-           className="bg-white/10 text-6xl py-4 flex justify-center items-center w-[70%] md:w-[60%] mx-auto mt-8 backdrop-blur-md p-1 rounded-xl border border-white/20 shadow-xl">               
+           className="bg-white/10 text-white text-6xl py-4 flex justify-center items-center w-[70%] md:w-[60%] mx-auto mt-8 backdrop-blur-md p-1 rounded-xl border border-white/20 shadow-xl">               
                   Hack Begins
           </motion.div>
 
